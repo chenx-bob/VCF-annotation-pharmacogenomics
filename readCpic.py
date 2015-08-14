@@ -127,7 +127,7 @@ def printDosingGuidelineFromJsonFile(jsonFileName, starAllelesListTwoBasic):
 	'''  takes a json file and searches for the two given star alleles and tries to print all found dosing guidelines
 	'''
 	# print jsonFileName
-	with open('/pharmGkb_resources/dosingGuidelines.json/'+jsonFileName) as data_file:
+	with open('/pharmGkb_resources/dosingGuidelinesjson/'+jsonFileName) as data_file:
 		parsedJsonFile = json.loads(data_file.read())
 	guidesPresentBool = False
 	if 'guides' in parsedJsonFile:

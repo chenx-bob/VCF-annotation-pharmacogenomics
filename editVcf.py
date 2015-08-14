@@ -1,22 +1,21 @@
 import readCpic
 import os
 import gzip
-import vcf
+import vcf # https://github.com/jamescasbon/PyVCF
 
-rsidlist = [line.strip() for line in open('/Users/admin/Dropbox/Privat/00_Masterthesis/pharmGkb_resources/rsidlist.txt', 'r')]
+
+rsidlist = [line.strip() for line in open('rsidlist.txt', 'r')]
 print 'Reading rsid list...',rsidlist[0:4],'... Found ',len(rsidlist),' rsids.'
 
-# ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/pilot_data/release/2010_07/trio/snps/
-vcfFilePath = '/Users/admin/Documents/VCF_files/PG0001217-BLD.genome.vcf.gz'
-# https://github.com/jamescasbon/PyVCF
+vcfFilePath = '/Users/admin/Documents/VCF_files/sample.vcf'
 vcf_reader = vcf.Reader(open(vcfFilePath, 'r'))
 vcf_reader.infos['DRUGREC'] = vcf.parser._Info('DRUGREC', '.', 'String', 'Influences response of mentioned drugs.')
 vcf_writer = vcf.Writer(open('/Users/admin/Documents/sample.vcf', 'w'), vcf_reader)
 for record in vcf_reader:
 	# print record.ID
 	if record.ID in rsidlist:
-		print '\nPGx variant found: '+record.ID+', Position='+str(record.POS)+', Chrom='+str(record.CHROM)+', REF='+record.REF+', ALT=',record.ALT[:]#,', INFO=',record.INFO
-		record.INFO['DRUGREC'] = 'BadDrug!!'
+		print '\nPGx variant found: '+record.ID+', Position='+str(record.POS)+', Chrom='+str(record.CHROM)+', REF='+record.REF+', ALT=',record.ALT[:]
+		record.INFO['DRUG'] = readCpic.getPGxDrugFromRsid(record.ID)
 		readCpic.printDosingGuidelineFromRsid(record.ID)
 	vcf_writer.write_record(record)
 

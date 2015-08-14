@@ -1,0 +1,24 @@
+{
+  "objCls" : "Guideline",
+  "@id" : "https://www.pharmgkb.org/data/guideline/PA166116208",
+  "@context" : "https://www.pharmgkb.org/jsonld/guideline.jsonld",
+  "id" : "PA166116208",
+  "name" : "DosingGuideline PA166116208",
+  "relatedDrugs" : [ {
+    "objCls" : "Drug",
+    "@id" : "https://www.pharmgkb.org/data/drug/PA450428",
+    "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+    "id" : "PA450428",
+    "name" : "methotrexate"
+  } ],
+  "relatedGenes" : [ {
+    "objCls" : "Gene",
+    "@id" : "https://www.pharmgkb.org/data/gene/PA31277",
+    "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+    "id" : "PA31277",
+    "symbol" : "MTRR",
+    "name" : "5-methyltetrahydrofolate-homocysteine methyltransferase reductase"
+  } ],
+  "released" : false,
+  "source" : "CPIC"
+}

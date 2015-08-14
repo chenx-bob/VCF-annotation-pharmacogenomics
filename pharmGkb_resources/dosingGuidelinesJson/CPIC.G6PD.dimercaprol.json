@@ -1,0 +1,24 @@
+{
+  "objCls" : "Guideline",
+  "@id" : "https://www.pharmgkb.org/data/guideline/PA166116114",
+  "@context" : "https://www.pharmgkb.org/jsonld/guideline.jsonld",
+  "id" : "PA166116114",
+  "name" : "DosingGuideline PA166116114",
+  "relatedDrugs" : [ {
+    "objCls" : "Drug",
+    "@id" : "https://www.pharmgkb.org/data/drug/PA165958406",
+    "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+    "id" : "PA165958406",
+    "name" : "dimercaprol"
+  } ],
+  "relatedGenes" : [ {
+    "objCls" : "Gene",
+    "@id" : "https://www.pharmgkb.org/data/gene/PA28469",
+    "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+    "id" : "PA28469",
+    "symbol" : "G6PD",
+    "name" : "glucose-6-phosphate dehydrogenase"
+  } ],
+  "released" : false,
+  "source" : "CPIC"
+}

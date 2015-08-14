@@ -1,0 +1,1535 @@
+{
+  "objCls" : "Guideline",
+  "@id" : "https://www.pharmgkb.org/data/guideline/PA166122686",
+  "@context" : "https://www.pharmgkb.org/jsonld/guideline.jsonld",
+  "id" : "PA166122686",
+  "name" : "CPIC Dosing Guideline for fluorouracil and DPYD",
+  "guides" : [ {
+    "locus" : "DPYD",
+    "locusId" : "PA145",
+    "alleles" : [ "*1", "*2A", "*4", "*5", "*6", "*9A", "*13", "rs67376798A", "rs67376798T" ],
+    "anns" : [ {
+      "id" : 1184513061,
+      "diplotypeIds1" : [ "PA165949085", "PA165949086", "PA165949090", "PA165949081", "PA166122689", "PA165949087" ],
+      "diplotypeIds2" : [ "PA165949085", "PA165949086", "PA165949090", "PA165949081", "PA166122689", "PA165949087" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA128406956",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA128406956",
+        "name" : "fluorouracil"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 1184513024,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 1184513060,
+          "allele1" : "*1",
+          "allele2" : "*1"
+        }, {
+          "id" : 1184513057,
+          "allele1" : "*1",
+          "allele2" : "*4"
+        }, {
+          "id" : 1184513058,
+          "allele1" : "*1",
+          "allele2" : "*5"
+        }, {
+          "id" : 1184513055,
+          "allele1" : "*1",
+          "allele2" : "*6"
+        }, {
+          "id" : 1184513059,
+          "allele1" : "*1",
+          "allele2" : "*9A"
+        }, {
+          "id" : 1184513056,
+          "allele1" : "*1",
+          "allele2" : "rs67376798T"
+        }, {
+          "id" : 1184513042,
+          "allele1" : "*4",
+          "allele2" : "*1"
+        }, {
+          "id" : 1184513039,
+          "allele1" : "*4",
+          "allele2" : "*4"
+        }, {
+          "id" : 1184513040,
+          "allele1" : "*4",
+          "allele2" : "*5"
+        }, {
+          "id" : 1184513037,
+          "allele1" : "*4",
+          "allele2" : "*6"
+        }, {
+          "id" : 1184513041,
+          "allele1" : "*4",
+          "allele2" : "*9A"
+        }, {
+          "id" : 1184513038,
+          "allele1" : "*4",
+          "allele2" : "rs67376798T"
+        }, {
+          "id" : 1184513048,
+          "allele1" : "*5",
+          "allele2" : "*1"
+        }, {
+          "id" : 1184513045,
+          "allele1" : "*5",
+          "allele2" : "*4"
+        }, {
+          "id" : 1184513046,
+          "allele1" : "*5",
+          "allele2" : "*5"
+        }, {
+          "id" : 1184513043,
+          "allele1" : "*5",
+          "allele2" : "*6"
+        }, {
+          "id" : 1184513047,
+          "allele1" : "*5",
+          "allele2" : "*9A"
+        }, {
+          "id" : 1184513044,
+          "allele1" : "*5",
+          "allele2" : "rs67376798T"
+        }, {
+          "id" : 1184513030,
+          "allele1" : "*6",
+          "allele2" : "*1"
+        }, {
+          "id" : 1184513027,
+          "allele1" : "*6",
+          "allele2" : "*4"
+        }, {
+          "id" : 1184513028,
+          "allele1" : "*6",
+          "allele2" : "*5"
+        }, {
+          "id" : 1184513025,
+          "allele1" : "*6",
+          "allele2" : "*6"
+        }, {
+          "id" : 1184513029,
+          "allele1" : "*6",
+          "allele2" : "*9A"
+        }, {
+          "id" : 1184513026,
+          "allele1" : "*6",
+          "allele2" : "rs67376798T"
+        }, {
+          "id" : 1184513054,
+          "allele1" : "*9A",
+          "allele2" : "*1"
+        }, {
+          "id" : 1184513051,
+          "allele1" : "*9A",
+          "allele2" : "*4"
+        }, {
+          "id" : 1184513052,
+          "allele1" : "*9A",
+          "allele2" : "*5"
+        }, {
+          "id" : 1184513049,
+          "allele1" : "*9A",
+          "allele2" : "*6"
+        }, {
+          "id" : 1184513053,
+          "allele1" : "*9A",
+          "allele2" : "*9A"
+        }, {
+          "id" : 1184513050,
+          "allele1" : "*9A",
+          "allele2" : "rs67376798T"
+        }, {
+          "id" : 1184513036,
+          "allele1" : "rs67376798T",
+          "allele2" : "*1"
+        }, {
+          "id" : 1184513033,
+          "allele1" : "rs67376798T",
+          "allele2" : "*4"
+        }, {
+          "id" : 1184513034,
+          "allele1" : "rs67376798T",
+          "allele2" : "*5"
+        }, {
+          "id" : 1184513031,
+          "allele1" : "rs67376798T",
+          "allele2" : "*6"
+        }, {
+          "id" : 1184513035,
+          "allele1" : "rs67376798T",
+          "allele2" : "*9A"
+        }, {
+          "id" : 1184513032,
+          "allele1" : "rs67376798T",
+          "allele2" : "rs67376798T"
+        } ],
+        "displayName" : "DPYD *1, DPYD *4, DPYD *5, DPYD *6, DPYD *9A, DPYD rs67376798T",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA145",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA145",
+          "symbol" : "DPYD",
+          "name" : "dihydropyrimidine dehydrogenase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949081",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949081",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949085",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949085",
+          "name" : "*4"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949086",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949086",
+          "name" : "*5"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949087",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949087",
+          "name" : "*6"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949090",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949090",
+          "name" : "*9A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA166122689",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA166122689",
+          "name" : "rs67376798T"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Homozygous wild-type or normal, high DPD activity (two or more functional *1 alleles) </p>"
+    }, {
+      "id" : 1184513197,
+      "diplotypeIds1" : [ "PA165949085", "PA165949086", "PA165949090", "PA165949081", "PA166122689", "PA165949087" ],
+      "diplotypeIds2" : [ "PA166122690", "PA165949095", "PA165949082" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA128406956",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA128406956",
+        "name" : "fluorouracil"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 1184513178,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 1184513194,
+          "allele1" : "*1",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513196,
+          "allele1" : "*1",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513195,
+          "allele1" : "*1",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513185,
+          "allele1" : "*4",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513187,
+          "allele1" : "*4",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513186,
+          "allele1" : "*4",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513188,
+          "allele1" : "*5",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513190,
+          "allele1" : "*5",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513189,
+          "allele1" : "*5",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513179,
+          "allele1" : "*6",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513181,
+          "allele1" : "*6",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513180,
+          "allele1" : "*6",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513191,
+          "allele1" : "*9A",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513193,
+          "allele1" : "*9A",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513192,
+          "allele1" : "*9A",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513182,
+          "allele1" : "rs67376798T",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513184,
+          "allele1" : "rs67376798T",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513183,
+          "allele1" : "rs67376798T",
+          "allele2" : "rs67376798A"
+        } ],
+        "displayName" : "DPYD *1, DPYD *13, DPYD *2A, DPYD *4, DPYD *5, DPYD *6, DPYD *9A, DPYD rs67376798A, DPYD rs67376798T",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA145",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA145",
+          "symbol" : "DPYD",
+          "name" : "dihydropyrimidine dehydrogenase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949081",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949081",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949095",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949095",
+          "name" : "*13"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949082",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949082",
+          "name" : "*2A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949085",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949085",
+          "name" : "*4"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949086",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949086",
+          "name" : "*5"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949087",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949087",
+          "name" : "*6"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949090",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949090",
+          "name" : "*9A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA166122690",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA166122690",
+          "name" : "rs67376798A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA166122689",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA166122689",
+          "name" : "rs67376798T"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Heterozygous or intermediate activity, may have partial DPD deficiency, at risk for toxicity with drug exposure</p>"
+    }, {
+      "id" : 1184513208,
+      "diplotypeIds1" : [ "PA166122690", "PA165949095", "PA165949082" ],
+      "diplotypeIds2" : [ "PA166122690", "PA165949095", "PA165949082" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA128406956",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA128406956",
+        "name" : "fluorouracil"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 1184513198,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 1184513199,
+          "allele1" : "*13",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513201,
+          "allele1" : "*13",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513200,
+          "allele1" : "*13",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513205,
+          "allele1" : "*2A",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513207,
+          "allele1" : "*2A",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513206,
+          "allele1" : "*2A",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513202,
+          "allele1" : "rs67376798A",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513204,
+          "allele1" : "rs67376798A",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513203,
+          "allele1" : "rs67376798A",
+          "allele2" : "rs67376798A"
+        } ],
+        "displayName" : "DPYD *13, DPYD *2A, DPYD rs67376798A",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA145",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA145",
+          "symbol" : "DPYD",
+          "name" : "dihydropyrimidine dehydrogenase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949095",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949095",
+          "name" : "*13"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949082",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949082",
+          "name" : "*2A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA166122690",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA166122690",
+          "name" : "rs67376798A"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Homozygous variant, DPD deficiency, at risk for toxicity with drug exposure</p>"
+    }, {
+      "id" : 1184513099,
+      "diplotypeIds1" : [ "PA165949085", "PA165949086", "PA165949090", "PA165949081", "PA166122689", "PA165949087" ],
+      "diplotypeIds2" : [ "PA165949085", "PA165949086", "PA165949090", "PA165949081", "PA166122689", "PA165949087" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA128406956",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA128406956",
+        "name" : "fluorouracil"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 1184513062,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 1184513098,
+          "allele1" : "*1",
+          "allele2" : "*1"
+        }, {
+          "id" : 1184513095,
+          "allele1" : "*1",
+          "allele2" : "*4"
+        }, {
+          "id" : 1184513096,
+          "allele1" : "*1",
+          "allele2" : "*5"
+        }, {
+          "id" : 1184513093,
+          "allele1" : "*1",
+          "allele2" : "*6"
+        }, {
+          "id" : 1184513097,
+          "allele1" : "*1",
+          "allele2" : "*9A"
+        }, {
+          "id" : 1184513094,
+          "allele1" : "*1",
+          "allele2" : "rs67376798T"
+        }, {
+          "id" : 1184513080,
+          "allele1" : "*4",
+          "allele2" : "*1"
+        }, {
+          "id" : 1184513077,
+          "allele1" : "*4",
+          "allele2" : "*4"
+        }, {
+          "id" : 1184513078,
+          "allele1" : "*4",
+          "allele2" : "*5"
+        }, {
+          "id" : 1184513075,
+          "allele1" : "*4",
+          "allele2" : "*6"
+        }, {
+          "id" : 1184513079,
+          "allele1" : "*4",
+          "allele2" : "*9A"
+        }, {
+          "id" : 1184513076,
+          "allele1" : "*4",
+          "allele2" : "rs67376798T"
+        }, {
+          "id" : 1184513086,
+          "allele1" : "*5",
+          "allele2" : "*1"
+        }, {
+          "id" : 1184513083,
+          "allele1" : "*5",
+          "allele2" : "*4"
+        }, {
+          "id" : 1184513084,
+          "allele1" : "*5",
+          "allele2" : "*5"
+        }, {
+          "id" : 1184513081,
+          "allele1" : "*5",
+          "allele2" : "*6"
+        }, {
+          "id" : 1184513085,
+          "allele1" : "*5",
+          "allele2" : "*9A"
+        }, {
+          "id" : 1184513082,
+          "allele1" : "*5",
+          "allele2" : "rs67376798T"
+        }, {
+          "id" : 1184513068,
+          "allele1" : "*6",
+          "allele2" : "*1"
+        }, {
+          "id" : 1184513065,
+          "allele1" : "*6",
+          "allele2" : "*4"
+        }, {
+          "id" : 1184513066,
+          "allele1" : "*6",
+          "allele2" : "*5"
+        }, {
+          "id" : 1184513063,
+          "allele1" : "*6",
+          "allele2" : "*6"
+        }, {
+          "id" : 1184513067,
+          "allele1" : "*6",
+          "allele2" : "*9A"
+        }, {
+          "id" : 1184513064,
+          "allele1" : "*6",
+          "allele2" : "rs67376798T"
+        }, {
+          "id" : 1184513092,
+          "allele1" : "*9A",
+          "allele2" : "*1"
+        }, {
+          "id" : 1184513089,
+          "allele1" : "*9A",
+          "allele2" : "*4"
+        }, {
+          "id" : 1184513090,
+          "allele1" : "*9A",
+          "allele2" : "*5"
+        }, {
+          "id" : 1184513087,
+          "allele1" : "*9A",
+          "allele2" : "*6"
+        }, {
+          "id" : 1184513091,
+          "allele1" : "*9A",
+          "allele2" : "*9A"
+        }, {
+          "id" : 1184513088,
+          "allele1" : "*9A",
+          "allele2" : "rs67376798T"
+        }, {
+          "id" : 1184513074,
+          "allele1" : "rs67376798T",
+          "allele2" : "*1"
+        }, {
+          "id" : 1184513071,
+          "allele1" : "rs67376798T",
+          "allele2" : "*4"
+        }, {
+          "id" : 1184513072,
+          "allele1" : "rs67376798T",
+          "allele2" : "*5"
+        }, {
+          "id" : 1184513069,
+          "allele1" : "rs67376798T",
+          "allele2" : "*6"
+        }, {
+          "id" : 1184513073,
+          "allele1" : "rs67376798T",
+          "allele2" : "*9A"
+        }, {
+          "id" : 1184513070,
+          "allele1" : "rs67376798T",
+          "allele2" : "rs67376798T"
+        } ],
+        "displayName" : "DPYD *1, DPYD *4, DPYD *5, DPYD *6, DPYD *9A, DPYD rs67376798T",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA145",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA145",
+          "symbol" : "DPYD",
+          "name" : "dihydropyrimidine dehydrogenase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949081",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949081",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949085",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949085",
+          "name" : "*4"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949086",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949086",
+          "name" : "*5"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949087",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949087",
+          "name" : "*6"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949090",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949090",
+          "name" : "*9A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA166122689",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA166122689",
+          "name" : "rs67376798T"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Normal DPD activity and \"normal\" risk for fluoropyrimidine toxicity </p>"
+    }, {
+      "id" : 1184513177,
+      "diplotypeIds1" : [ "PA165949085", "PA165949086", "PA165949090", "PA165949081", "PA166122689", "PA165949087" ],
+      "diplotypeIds2" : [ "PA166122690", "PA165949095", "PA165949082" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA128406956",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA128406956",
+        "name" : "fluorouracil"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 1184513158,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 1184513174,
+          "allele1" : "*1",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513176,
+          "allele1" : "*1",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513175,
+          "allele1" : "*1",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513165,
+          "allele1" : "*4",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513167,
+          "allele1" : "*4",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513166,
+          "allele1" : "*4",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513168,
+          "allele1" : "*5",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513170,
+          "allele1" : "*5",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513169,
+          "allele1" : "*5",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513159,
+          "allele1" : "*6",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513161,
+          "allele1" : "*6",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513160,
+          "allele1" : "*6",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513171,
+          "allele1" : "*9A",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513173,
+          "allele1" : "*9A",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513172,
+          "allele1" : "*9A",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513162,
+          "allele1" : "rs67376798T",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513164,
+          "allele1" : "rs67376798T",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513163,
+          "allele1" : "rs67376798T",
+          "allele2" : "rs67376798A"
+        } ],
+        "displayName" : "DPYD *1, DPYD *13, DPYD *2A, DPYD *4, DPYD *5, DPYD *6, DPYD *9A, DPYD rs67376798A, DPYD rs67376798T",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA145",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA145",
+          "symbol" : "DPYD",
+          "name" : "dihydropyrimidine dehydrogenase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949081",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949081",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949095",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949095",
+          "name" : "*13"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949082",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949082",
+          "name" : "*2A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949085",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949085",
+          "name" : "*4"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949086",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949086",
+          "name" : "*5"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949087",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949087",
+          "name" : "*6"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949090",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949090",
+          "name" : "*9A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA166122690",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA166122690",
+          "name" : "rs67376798A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA166122689",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA166122689",
+          "name" : "rs67376798T"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Decreased DPD activity (leukocyte DPD activity at 30% to 70% that of the normal population) and increased risk for severe or even fatal drug toxicity when treated with fluoropyrimidine drugs </p>"
+    }, {
+      "id" : 1184513219,
+      "diplotypeIds1" : [ "PA166122690", "PA165949095", "PA165949082" ],
+      "diplotypeIds2" : [ "PA166122690", "PA165949095", "PA165949082" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA128406956",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA128406956",
+        "name" : "fluorouracil"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 1184513209,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 1184513210,
+          "allele1" : "*13",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513212,
+          "allele1" : "*13",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513211,
+          "allele1" : "*13",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513216,
+          "allele1" : "*2A",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513218,
+          "allele1" : "*2A",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513217,
+          "allele1" : "*2A",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513213,
+          "allele1" : "rs67376798A",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513215,
+          "allele1" : "rs67376798A",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513214,
+          "allele1" : "rs67376798A",
+          "allele2" : "rs67376798A"
+        } ],
+        "displayName" : "DPYD *13, DPYD *2A, DPYD rs67376798A",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA145",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA145",
+          "symbol" : "DPYD",
+          "name" : "dihydropyrimidine dehydrogenase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949095",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949095",
+          "name" : "*13"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949082",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949082",
+          "name" : "*2A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA166122690",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA166122690",
+          "name" : "rs67376798A"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Complete DPD deficiency and increased risk for severe or even fatal drug toxicity when treated with fluoropyrimidine drugs</p>"
+    }, {
+      "id" : 1184513137,
+      "diplotypeIds1" : [ "PA165949085", "PA165949086", "PA165949090", "PA165949081", "PA166122689", "PA165949087" ],
+      "diplotypeIds2" : [ "PA165949085", "PA165949086", "PA165949090", "PA165949081", "PA166122689", "PA165949087" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA128406956",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA128406956",
+        "name" : "fluorouracil"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501928",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501928,
+        "src" : "guidelineTags",
+        "term" : "Recommendations",
+        "termId" : "guidelineTags:981501928"
+      } ],
+      "location" : {
+        "id" : 1184513100,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 1184513136,
+          "allele1" : "*1",
+          "allele2" : "*1"
+        }, {
+          "id" : 1184513133,
+          "allele1" : "*1",
+          "allele2" : "*4"
+        }, {
+          "id" : 1184513134,
+          "allele1" : "*1",
+          "allele2" : "*5"
+        }, {
+          "id" : 1184513131,
+          "allele1" : "*1",
+          "allele2" : "*6"
+        }, {
+          "id" : 1184513135,
+          "allele1" : "*1",
+          "allele2" : "*9A"
+        }, {
+          "id" : 1184513132,
+          "allele1" : "*1",
+          "allele2" : "rs67376798T"
+        }, {
+          "id" : 1184513118,
+          "allele1" : "*4",
+          "allele2" : "*1"
+        }, {
+          "id" : 1184513115,
+          "allele1" : "*4",
+          "allele2" : "*4"
+        }, {
+          "id" : 1184513116,
+          "allele1" : "*4",
+          "allele2" : "*5"
+        }, {
+          "id" : 1184513113,
+          "allele1" : "*4",
+          "allele2" : "*6"
+        }, {
+          "id" : 1184513117,
+          "allele1" : "*4",
+          "allele2" : "*9A"
+        }, {
+          "id" : 1184513114,
+          "allele1" : "*4",
+          "allele2" : "rs67376798T"
+        }, {
+          "id" : 1184513124,
+          "allele1" : "*5",
+          "allele2" : "*1"
+        }, {
+          "id" : 1184513121,
+          "allele1" : "*5",
+          "allele2" : "*4"
+        }, {
+          "id" : 1184513122,
+          "allele1" : "*5",
+          "allele2" : "*5"
+        }, {
+          "id" : 1184513119,
+          "allele1" : "*5",
+          "allele2" : "*6"
+        }, {
+          "id" : 1184513123,
+          "allele1" : "*5",
+          "allele2" : "*9A"
+        }, {
+          "id" : 1184513120,
+          "allele1" : "*5",
+          "allele2" : "rs67376798T"
+        }, {
+          "id" : 1184513106,
+          "allele1" : "*6",
+          "allele2" : "*1"
+        }, {
+          "id" : 1184513103,
+          "allele1" : "*6",
+          "allele2" : "*4"
+        }, {
+          "id" : 1184513104,
+          "allele1" : "*6",
+          "allele2" : "*5"
+        }, {
+          "id" : 1184513101,
+          "allele1" : "*6",
+          "allele2" : "*6"
+        }, {
+          "id" : 1184513105,
+          "allele1" : "*6",
+          "allele2" : "*9A"
+        }, {
+          "id" : 1184513102,
+          "allele1" : "*6",
+          "allele2" : "rs67376798T"
+        }, {
+          "id" : 1184513130,
+          "allele1" : "*9A",
+          "allele2" : "*1"
+        }, {
+          "id" : 1184513127,
+          "allele1" : "*9A",
+          "allele2" : "*4"
+        }, {
+          "id" : 1184513128,
+          "allele1" : "*9A",
+          "allele2" : "*5"
+        }, {
+          "id" : 1184513125,
+          "allele1" : "*9A",
+          "allele2" : "*6"
+        }, {
+          "id" : 1184513129,
+          "allele1" : "*9A",
+          "allele2" : "*9A"
+        }, {
+          "id" : 1184513126,
+          "allele1" : "*9A",
+          "allele2" : "rs67376798T"
+        }, {
+          "id" : 1184513112,
+          "allele1" : "rs67376798T",
+          "allele2" : "*1"
+        }, {
+          "id" : 1184513109,
+          "allele1" : "rs67376798T",
+          "allele2" : "*4"
+        }, {
+          "id" : 1184513110,
+          "allele1" : "rs67376798T",
+          "allele2" : "*5"
+        }, {
+          "id" : 1184513107,
+          "allele1" : "rs67376798T",
+          "allele2" : "*6"
+        }, {
+          "id" : 1184513111,
+          "allele1" : "rs67376798T",
+          "allele2" : "*9A"
+        }, {
+          "id" : 1184513108,
+          "allele1" : "rs67376798T",
+          "allele2" : "rs67376798T"
+        } ],
+        "displayName" : "DPYD *1, DPYD *4, DPYD *5, DPYD *6, DPYD *9A, DPYD rs67376798T",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA145",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA145",
+          "symbol" : "DPYD",
+          "name" : "dihydropyrimidine dehydrogenase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949081",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949081",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949085",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949085",
+          "name" : "*4"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949086",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949086",
+          "name" : "*5"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949087",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949087",
+          "name" : "*6"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949090",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949090",
+          "name" : "*9A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA166122689",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA166122689",
+          "name" : "rs67376798T"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501931",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501931,
+        "src" : "guidelineStrength",
+        "term" : "Moderate",
+        "termId" : "guidelineStrength:981501931"
+      },
+      "textHtml" : "<p>Use label-recommended dosage and administration</p>"
+    }, {
+      "id" : 1184513157,
+      "diplotypeIds1" : [ "PA165949085", "PA165949086", "PA165949090", "PA165949081", "PA166122689", "PA165949087" ],
+      "diplotypeIds2" : [ "PA166122690", "PA165949095", "PA165949082" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA128406956",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA128406956",
+        "name" : "fluorouracil"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501928",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501928,
+        "src" : "guidelineTags",
+        "term" : "Recommendations",
+        "termId" : "guidelineTags:981501928"
+      } ],
+      "location" : {
+        "id" : 1184513138,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 1184513154,
+          "allele1" : "*1",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513156,
+          "allele1" : "*1",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513155,
+          "allele1" : "*1",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513145,
+          "allele1" : "*4",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513147,
+          "allele1" : "*4",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513146,
+          "allele1" : "*4",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513148,
+          "allele1" : "*5",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513150,
+          "allele1" : "*5",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513149,
+          "allele1" : "*5",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513139,
+          "allele1" : "*6",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513141,
+          "allele1" : "*6",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513140,
+          "allele1" : "*6",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513151,
+          "allele1" : "*9A",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513153,
+          "allele1" : "*9A",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513152,
+          "allele1" : "*9A",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513142,
+          "allele1" : "rs67376798T",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513144,
+          "allele1" : "rs67376798T",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513143,
+          "allele1" : "rs67376798T",
+          "allele2" : "rs67376798A"
+        } ],
+        "displayName" : "DPYD *1, DPYD *13, DPYD *2A, DPYD *4, DPYD *5, DPYD *6, DPYD *9A, DPYD rs67376798A, DPYD rs67376798T",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA145",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA145",
+          "symbol" : "DPYD",
+          "name" : "dihydropyrimidine dehydrogenase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949081",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949081",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949095",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949095",
+          "name" : "*13"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949082",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949082",
+          "name" : "*2A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949085",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949085",
+          "name" : "*4"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949086",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949086",
+          "name" : "*5"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949087",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949087",
+          "name" : "*6"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949090",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949090",
+          "name" : "*9A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA166122690",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA166122690",
+          "name" : "rs67376798A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA166122689",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA166122689",
+          "name" : "rs67376798T"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501931",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501931,
+        "src" : "guidelineStrength",
+        "term" : "Moderate",
+        "termId" : "guidelineStrength:981501931"
+      },
+      "textHtml" : "<p>Start with at least a 50% reduction in starting dose followed by titration of dose based on toxicity b or pharmacokinetic test (if available) </p>"
+    }, {
+      "id" : 1184513230,
+      "diplotypeIds1" : [ "PA166122690", "PA165949095", "PA165949082" ],
+      "diplotypeIds2" : [ "PA166122690", "PA165949095", "PA165949082" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA128406956",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA128406956",
+        "name" : "fluorouracil"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501928",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501928,
+        "src" : "guidelineTags",
+        "term" : "Recommendations",
+        "termId" : "guidelineTags:981501928"
+      } ],
+      "location" : {
+        "id" : 1184513220,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 1184513221,
+          "allele1" : "*13",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513223,
+          "allele1" : "*13",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513222,
+          "allele1" : "*13",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513227,
+          "allele1" : "*2A",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513229,
+          "allele1" : "*2A",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513228,
+          "allele1" : "*2A",
+          "allele2" : "rs67376798A"
+        }, {
+          "id" : 1184513224,
+          "allele1" : "rs67376798A",
+          "allele2" : "*13"
+        }, {
+          "id" : 1184513226,
+          "allele1" : "rs67376798A",
+          "allele2" : "*2A"
+        }, {
+          "id" : 1184513225,
+          "allele1" : "rs67376798A",
+          "allele2" : "rs67376798A"
+        } ],
+        "displayName" : "DPYD *13, DPYD *2A, DPYD rs67376798A",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA145",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA145",
+          "symbol" : "DPYD",
+          "name" : "dihydropyrimidine dehydrogenase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949095",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949095",
+          "name" : "*13"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165949082",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165949082",
+          "name" : "*2A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA166122690",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA166122690",
+          "name" : "rs67376798A"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501930",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501930,
+        "src" : "guidelineStrength",
+        "term" : "Strong",
+        "termId" : "guidelineStrength:981501930"
+      },
+      "textHtml" : "<p>Select alternate drug</p>"
+    } ]
+  } ],
+  "relatedDrugs" : [ {
+    "objCls" : "Drug",
+    "@id" : "https://www.pharmgkb.org/data/drug/PA128406956",
+    "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+    "id" : "PA128406956",
+    "name" : "fluorouracil"
+  } ],
+  "relatedGenes" : [ {
+    "objCls" : "Gene",
+    "@id" : "https://www.pharmgkb.org/data/gene/PA145",
+    "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+    "id" : "PA145",
+    "symbol" : "DPYD",
+    "name" : "dihydropyrimidine dehydrogenase"
+  } ],
+  "released" : true,
+  "source" : "CPIC",
+  "summaryHtml" : "<p>The CPIC Dosing Guidelines for fluoropyrimidines (i.e. 5-fluorouracil, capecitabine or tegafur) recommends an alternative drug for patients who are homozygous for DPYD non-functional variants - *2A (<a href=\"/rsid/rs3918290\">rs3918290</a>), *13 (<a href=\"/rsid/rs55886062\">rs55886062</a>), and <a href=\"/rsid/rs67376798\">rs67376798</a> A (on the positive chromosomal strand) - as these patients are typically DPD deficient.  Consider a 50% reduction in starting dose for heterozygous patients (intermediate activity).</p>",
+  "textHtml" : "<h3 id=\"May2014UpdateonPharmGKB\">May 2014 Update on PharmGKB</h3><ul><li> The CPIC authors recommend that the <em>DPYD*4</em>, <em>*5</em>, <em>*6</em> and <em>*9A</em> alleles be categorized as \"normal\" activity, in part based upon the recent publication <a href=\"/redirect.jsp?p=http%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpubmed%2F%3Fterm%3D24648345\" target=\"offsite\">Comparative Functional Analysis of DPYD Variants of Potential Clinical Relevance to Dihydropyrimidine Dehydrogenase Activity</a>. </li></ul><h3 id=\"December2013Publication\">December 2013 Publication</h3><p><em>Accepted article preview online August 2013; Advance online publication October 2013.</em></p><ul><li>Guidelines regarding the use of pharmacogenomic tests in dosing for fluoropyrimidines have been published in <em>Clinical Pharmacology and Therapeutics</em> by the Clinical Pharmacogenetics Implementation Consortium (<a href=\"/contributors/consortia/cpic_profile.jsp\">CPIC</a>).</li><li>These guidelines are applicable to:<ul><li>at the time of this writing, there are no data available on the possible role of DPYD*2A, *13, or <a href=\"/rsid/rs67376798\">rs67376798</a> in 5-fluorouracil toxicities in pediatric patient populations; however, there is no reason to suspect that DPYD variant alleles would affect 5-fluorouracil metabolism differently in children compared to adults.</li></ul></li><li>Excerpt from the fluoropyrimidine dosing guideline based on DPYD genotype:<ul><li>\"The strength of the dosing recommendations is based on the fact that some variants (DPYD*2A, *13, and <a href=\"/rsid/rs67376798\">rs67376798</a>) clearly affect DPD activity, and DPD activity is clearly related to 5-fluorouracil clearance, and 5-fluorouracil exposure is associated with its toxic effects. Therefore, reduction of fluoropyrimidine dosage in patients with these variants may prevent severe and possibly life-threatening toxicities. However, available evidence does not clearly indicate a degree of dose reduction needed to prevent fluoropyrimidine related toxicities...[Based on literature review (see full manuscript),] our recommendation is to start with at least a 50% reduction of the starting dose followed by an increase in dose in patients experiencing no or clinically tolerable toxicity to maintain efficacy, a decrease in dose in patients who do not tolerate the starting dose to minimize toxicities or pharmacokinetic guided dose adjustments (if available). Patients who are homozygous for DPYD*2A, *13, or <a href=\"/rsid/rs67376798\">rs67376798</a> may demonstrate complete DPD deficiency and the use of 5-fluorouracil or capecitabine is not recommended in these patients.\" </li></ul></li><li>Download and read:<ul><li><a href=\"/download.do?objCls=Attachment&amp;objId=CPIC_DPYD_Fluoropyrimidine_Dosing_2013.pdf\">Clinical Pharmacogenetics Implementation Consortium Guidelines for Dihydropyrimidine Dehydrogenase Genotype and Fluoropyrimidine Dosing</a></li><li><a href=\"/download.do?objCls=Attachment&amp;objId=DPYD_CPIC_Supp_final.pdf\">2013 supplement</a></li></ul></li></ul><h5 id=\"h5-1\"></h5><h3 id=\"Table1Recommendeddosingoffluoropyrimidinesbygenotypephenotype.\">Table 1: Recommended dosing of fluoropyrimidines by genotype/phenotype.</h3><p><em>Adapted from Tables 1 and 2 of the 2013 guideline manuscript.</em></p><table class=\"table table-striped table-condensed table-hover table-bordered\"><tr><th> Phenotype (genotype) </th><th> Examples of diplotypes </th><th> Implications for phenotypic measures </th><th> Dosing recommendations </th><th> Classification of recommendations <sup>a</sup> </th></tr><tr><td> Homozygous wild-type or normal, high DPD activity (two or more functional *1 alleles) </td><td> *1/*1 </td><td> Normal DPD activity and \"normal\" risk for fluoropyrimidine toxicity </td><td> Use label-recommended dosage and administration </td><td> Moderate </td></tr><tr><td> Heterozygous or intermediate activity (~3-5% of patients), may have partial DPD deficiency, at risk for toxicity with drug exposure (one functional allele *1, plus one nonfunctional allele - *2A, *13 or rs67376798A <sup>c</sup>) </td><td> *1/*2A; *1/*13; *1/ rs67376798A <sup>c</sup>) </td><td> Decreased DPD activity (leukocyte DPD activity at 30% to 70% that of the normal population) and increased risk for severe or even fatal drug toxicity when treated with fluoropyrimidine drugs </td><td> Start with at least a 50% reduction in starting dose followed by titration of dose based on toxicity <sup>b</sup> or pharmacokinetic test (if available) </td><td> Moderate </td></tr><tr><td> Homozygous variant, DPD deficiency (~0.2% of patients), at risk for toxicity with drug exposure (2 nonfunctional alleles - *2A, *13 or rs67376798A <sup>c</sup>) </td><td> *2A/*2A; *13/*13; rs67376798A <sup>c</sup> / rs67376798A <sup>c</sup> </td><td> Complete DPD deficiency and increased risk for severe or even fatal drug toxicity when treated with fluoropyrimidine drugs </td><td> Select alternate drug </td><td> Strong </td></tr></table><p><sup>a</sup> Rating scheme described in 2013 supplement.<br/><sup>b</sup> Increase the dose in patients experiencing no or clinically tolerable toxicity to maintain efficacy; decrease the dose in patients who do not tolerate the starting dose to minimize toxicities.<br/><sup>c</sup> Note that the rs67376798A allele refers to the allele on the positive chromosomal strand.  This is important because DPYD is on the minus chromosomal strand and <a href=\"/rsid/rs67376798\">rs67376798</a> is a T/A snp.  Therefore, the T allele on the gene confers the deficiency, while the complement on the positive chromosomal strand (A allele) is indicative of deficiency.</p>"
+}

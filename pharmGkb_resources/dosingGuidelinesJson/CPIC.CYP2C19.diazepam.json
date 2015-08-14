@@ -1,0 +1,24 @@
+{
+  "objCls" : "Guideline",
+  "@id" : "https://www.pharmgkb.org/data/guideline/PA166116136",
+  "@context" : "https://www.pharmgkb.org/jsonld/guideline.jsonld",
+  "id" : "PA166116136",
+  "name" : "DosingGuideline PA166116136",
+  "relatedDrugs" : [ {
+    "objCls" : "Drug",
+    "@id" : "https://www.pharmgkb.org/data/drug/PA449283",
+    "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+    "id" : "PA449283",
+    "name" : "diazepam"
+  } ],
+  "relatedGenes" : [ {
+    "objCls" : "Gene",
+    "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+    "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+    "id" : "PA124",
+    "symbol" : "CYP2C19",
+    "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+  } ],
+  "released" : false,
+  "source" : "CPIC"
+}

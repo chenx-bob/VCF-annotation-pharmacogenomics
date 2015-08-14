@@ -1,0 +1,24 @@
+{
+  "objCls" : "Guideline",
+  "@id" : "https://www.pharmgkb.org/data/guideline/PA166116187",
+  "@context" : "https://www.pharmgkb.org/jsonld/guideline.jsonld",
+  "id" : "PA166116187",
+  "name" : "DosingGuideline PA166116187",
+  "relatedDrugs" : [ {
+    "objCls" : "Drug",
+    "@id" : "https://www.pharmgkb.org/data/drug/PA448497",
+    "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+    "id" : "PA448497",
+    "name" : "aspirin"
+  } ],
+  "relatedGenes" : [ {
+    "objCls" : "Gene",
+    "@id" : "https://www.pharmgkb.org/data/gene/PA235",
+    "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+    "id" : "PA235",
+    "symbol" : "LTC4S",
+    "name" : "leukotriene C4 synthase"
+  } ],
+  "released" : false,
+  "source" : "CPIC"
+}

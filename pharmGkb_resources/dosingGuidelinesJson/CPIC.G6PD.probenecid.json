@@ -1,0 +1,25 @@
+{
+  "objCls" : "Guideline",
+  "@id" : "https://www.pharmgkb.org/data/guideline/PA166116125",
+  "@context" : "https://www.pharmgkb.org/jsonld/guideline.jsonld",
+  "id" : "PA166116125",
+  "name" : "CPIC Dosing Guideline for probenecid and G6PD",
+  "relatedDrugs" : [ {
+    "objCls" : "Drug",
+    "@id" : "https://www.pharmgkb.org/data/drug/PA451106",
+    "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+    "id" : "PA451106",
+    "name" : "probenecid"
+  } ],
+  "relatedGenes" : [ {
+    "objCls" : "Gene",
+    "@id" : "https://www.pharmgkb.org/data/gene/PA28469",
+    "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+    "id" : "PA28469",
+    "symbol" : "G6PD",
+    "name" : "glucose-6-phosphate dehydrogenase"
+  } ],
+  "released" : false,
+  "source" : "CPIC",
+  "textHtml" : "<p>under evaluation</p>"
+}

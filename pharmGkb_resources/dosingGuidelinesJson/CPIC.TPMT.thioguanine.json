@@ -1,0 +1,923 @@
+{
+  "objCls" : "Guideline",
+  "@id" : "https://www.pharmgkb.org/data/guideline/PA166104965",
+  "@context" : "https://www.pharmgkb.org/jsonld/guideline.jsonld",
+  "id" : "PA166104965",
+  "name" : "CPIC Dosing Guideline for thioguanine and TPMT",
+  "guides" : [ {
+    "locus" : "TPMT",
+    "locusId" : "PA356",
+    "alleles" : [ "*1", "*2", "*3A", "*3B", "*3C", "*4" ],
+    "anns" : [ {
+      "id" : 981503086,
+      "diplotypeIds1" : [ "PA165819272", "PA165819274", "PA165819271", "PA165819270", "PA165819269" ],
+      "diplotypeIds2" : [ "PA165819272", "PA165819274", "PA165819271", "PA165819270", "PA165819269" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA451663",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA451663",
+        "name" : "thioguanine"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 981915829,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981915830,
+          "allele1" : "*2",
+          "allele2" : "*2"
+        }, {
+          "id" : 981915831,
+          "allele1" : "*2",
+          "allele2" : "*3A"
+        }, {
+          "id" : 981915832,
+          "allele1" : "*2",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981915833,
+          "allele1" : "*2",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981915834,
+          "allele1" : "*2",
+          "allele2" : "*4"
+        }, {
+          "id" : 981915835,
+          "allele1" : "*3A",
+          "allele2" : "*3A"
+        }, {
+          "id" : 981915836,
+          "allele1" : "*3A",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981915837,
+          "allele1" : "*3A",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981915838,
+          "allele1" : "*3A",
+          "allele2" : "*4"
+        }, {
+          "id" : 981915839,
+          "allele1" : "*3B",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981915840,
+          "allele1" : "*3B",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981915841,
+          "allele1" : "*3B",
+          "allele2" : "*4"
+        }, {
+          "id" : 981915842,
+          "allele1" : "*3C",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981915843,
+          "allele1" : "*3C",
+          "allele2" : "*4"
+        }, {
+          "id" : 981915844,
+          "allele1" : "*4",
+          "allele2" : "*4"
+        } ],
+        "displayName" : "TPMT *2, TPMT *3A, TPMT *3B, TPMT *3C, TPMT *4",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA356",
+          "symbol" : "TPMT",
+          "name" : "thiopurine S-methyltransferase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819269",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819269",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819270",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819270",
+          "name" : "*3A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819271",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819271",
+          "name" : "*3B"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819272",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819272",
+          "name" : "*3C"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819274",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819274",
+          "name" : "*4"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Homozygous variant, mutant, low, or deficient activity (two nonfunctional alleles - *2, *3A, *3B, *3C, or *4)</p>"
+    }, {
+      "id" : 981503080,
+      "diplotypeIds1" : [ "PA165819268" ],
+      "diplotypeIds2" : [ "PA165819268" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA451663",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA451663",
+        "name" : "thioguanine"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 981915845,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981915846,
+          "allele1" : "*1",
+          "allele2" : "*1"
+        } ],
+        "displayName" : "TPMT *1",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA356",
+          "symbol" : "TPMT",
+          "name" : "thiopurine S-methyltransferase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819268",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819268",
+          "name" : "*1"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Homozygous wild-type or normal, high activity (two functional *1 alleles)</p>"
+    }, {
+      "id" : 981503083,
+      "diplotypeIds1" : [ "PA165819268" ],
+      "diplotypeIds2" : [ "PA165819272", "PA165819274", "PA165819271", "PA165819270", "PA165819269" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA451663",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA451663",
+        "name" : "thioguanine"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 981916788,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981916789,
+          "allele1" : "*1",
+          "allele2" : "*2"
+        }, {
+          "id" : 981916790,
+          "allele1" : "*1",
+          "allele2" : "*3A"
+        }, {
+          "id" : 981916791,
+          "allele1" : "*1",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981916792,
+          "allele1" : "*1",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981916793,
+          "allele1" : "*1",
+          "allele2" : "*4"
+        } ],
+        "displayName" : "TPMT *1, TPMT *2, TPMT *3A, TPMT *3B, TPMT *3C, TPMT *4",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA356",
+          "symbol" : "TPMT",
+          "name" : "thiopurine S-methyltransferase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819268",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819268",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819269",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819269",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819270",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819270",
+          "name" : "*3A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819271",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819271",
+          "name" : "*3B"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819272",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819272",
+          "name" : "*3C"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819274",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819274",
+          "name" : "*4"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Heterozygote or intermediate activity (one functional allele - *1, plus one nonfunctional allele - *2, *3A, *3B, *3C, or *4)</p>"
+    }, {
+      "id" : 981503084,
+      "diplotypeIds1" : [ "PA165819268" ],
+      "diplotypeIds2" : [ "PA165819272", "PA165819274", "PA165819271", "PA165819270", "PA165819269" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA451663",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA451663",
+        "name" : "thioguanine"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 981915847,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981915848,
+          "allele1" : "*1",
+          "allele2" : "*2"
+        }, {
+          "id" : 981915849,
+          "allele1" : "*1",
+          "allele2" : "*3A"
+        }, {
+          "id" : 981915850,
+          "allele1" : "*1",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981915851,
+          "allele1" : "*1",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981915852,
+          "allele1" : "*1",
+          "allele2" : "*4"
+        } ],
+        "displayName" : "TPMT *1, TPMT *2, TPMT *3A, TPMT *3B, TPMT *3C, TPMT *4",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA356",
+          "symbol" : "TPMT",
+          "name" : "thiopurine S-methyltransferase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819268",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819268",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819269",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819269",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819270",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819270",
+          "name" : "*3A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819271",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819271",
+          "name" : "*3B"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819272",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819272",
+          "name" : "*3C"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819274",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819274",
+          "name" : "*4"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Moderate to high concentrations of TGN metabolites; but note that TGN after thioguanine are 5-10x higher than TGN after mercaptopurine or azathioprine</p>"
+    }, {
+      "id" : 981503081,
+      "diplotypeIds1" : [ "PA165819268" ],
+      "diplotypeIds2" : [ "PA165819268" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA451663",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA451663",
+        "name" : "thioguanine"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 981916919,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981916920,
+          "allele1" : "*1",
+          "allele2" : "*1"
+        } ],
+        "displayName" : "TPMT *1",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA356",
+          "symbol" : "TPMT",
+          "name" : "thiopurine S-methyltransferase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819268",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819268",
+          "name" : "*1"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Lower concentrations of TGN metabolites, but note that TGN after thioguanine are 5-10x higher than TGN after mercaptopurine or azathioprine</p>"
+    }, {
+      "id" : 981503087,
+      "diplotypeIds1" : [ "PA165819272", "PA165819274", "PA165819271", "PA165819270", "PA165819269" ],
+      "diplotypeIds2" : [ "PA165819272", "PA165819274", "PA165819271", "PA165819270", "PA165819269" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA451663",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA451663",
+        "name" : "thioguanine"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 981919784,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981919785,
+          "allele1" : "*2",
+          "allele2" : "*2"
+        }, {
+          "id" : 981919786,
+          "allele1" : "*2",
+          "allele2" : "*3A"
+        }, {
+          "id" : 981919787,
+          "allele1" : "*2",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981919788,
+          "allele1" : "*2",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981919789,
+          "allele1" : "*2",
+          "allele2" : "*4"
+        }, {
+          "id" : 981919790,
+          "allele1" : "*3A",
+          "allele2" : "*3A"
+        }, {
+          "id" : 981919791,
+          "allele1" : "*3A",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981919792,
+          "allele1" : "*3A",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981919793,
+          "allele1" : "*3A",
+          "allele2" : "*4"
+        }, {
+          "id" : 981919794,
+          "allele1" : "*3B",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981919795,
+          "allele1" : "*3B",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981919796,
+          "allele1" : "*3B",
+          "allele2" : "*4"
+        }, {
+          "id" : 981919797,
+          "allele1" : "*3C",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981919798,
+          "allele1" : "*3C",
+          "allele2" : "*4"
+        }, {
+          "id" : 981919799,
+          "allele1" : "*4",
+          "allele2" : "*4"
+        } ],
+        "displayName" : "TPMT *2, TPMT *3A, TPMT *3B, TPMT *3C, TPMT *4",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA356",
+          "symbol" : "TPMT",
+          "name" : "thiopurine S-methyltransferase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819269",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819269",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819270",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819270",
+          "name" : "*3A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819271",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819271",
+          "name" : "*3B"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819272",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819272",
+          "name" : "*3C"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819274",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819274",
+          "name" : "*4"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Extremely high concentrations of TGN metabolites; fatal toxicity possible without dose decrease</p>"
+    }, {
+      "id" : 981503088,
+      "diplotypeIds1" : [ "PA165819272", "PA165819274", "PA165819271", "PA165819270", "PA165819269" ],
+      "diplotypeIds2" : [ "PA165819272", "PA165819274", "PA165819271", "PA165819270", "PA165819269" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA451663",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA451663",
+        "name" : "thioguanine"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501928",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501928,
+        "src" : "guidelineTags",
+        "term" : "Recommendations",
+        "termId" : "guidelineTags:981501928"
+      } ],
+      "location" : {
+        "id" : 981914618,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981914619,
+          "allele1" : "*2",
+          "allele2" : "*2"
+        }, {
+          "id" : 981914620,
+          "allele1" : "*2",
+          "allele2" : "*3A"
+        }, {
+          "id" : 981914621,
+          "allele1" : "*2",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981914622,
+          "allele1" : "*2",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981914623,
+          "allele1" : "*2",
+          "allele2" : "*4"
+        }, {
+          "id" : 981914624,
+          "allele1" : "*3A",
+          "allele2" : "*3A"
+        }, {
+          "id" : 981914625,
+          "allele1" : "*3A",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981914626,
+          "allele1" : "*3A",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981914627,
+          "allele1" : "*3A",
+          "allele2" : "*4"
+        }, {
+          "id" : 981914628,
+          "allele1" : "*3B",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981914629,
+          "allele1" : "*3B",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981914630,
+          "allele1" : "*3B",
+          "allele2" : "*4"
+        }, {
+          "id" : 981914631,
+          "allele1" : "*3C",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981914632,
+          "allele1" : "*3C",
+          "allele2" : "*4"
+        }, {
+          "id" : 981914633,
+          "allele1" : "*4",
+          "allele2" : "*4"
+        } ],
+        "displayName" : "TPMT *2, TPMT *3A, TPMT *3B, TPMT *3C, TPMT *4",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA356",
+          "symbol" : "TPMT",
+          "name" : "thiopurine S-methyltransferase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819269",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819269",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819270",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819270",
+          "name" : "*3A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819271",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819271",
+          "name" : "*3B"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819272",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819272",
+          "name" : "*3C"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819274",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819274",
+          "name" : "*4"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501930",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501930,
+        "src" : "guidelineStrength",
+        "term" : "Strong",
+        "termId" : "guidelineStrength:981501930"
+      },
+      "textHtml" : "<p>Start with drastically reduced doses (reduce daily dose by 10-fold and dose thrice weekly instead of daily) and adjust doses of thioguanine based on degree of myelosuppression and disease-specific guidelines. Allow 4-6 weeks to reach steady state after each dose adjustment. In setting of myelosuppression, emphasis should be on reducing thioguanine over other agents. For nonmalignant conditions, consider alternative nonthiopurine immunosuppressant therapy.</p>"
+    }, {
+      "id" : 981503082,
+      "diplotypeIds1" : [ "PA165819268" ],
+      "diplotypeIds2" : [ "PA165819268" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA451663",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA451663",
+        "name" : "thioguanine"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501928",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501928,
+        "src" : "guidelineTags",
+        "term" : "Recommendations",
+        "termId" : "guidelineTags:981501928"
+      } ],
+      "location" : {
+        "id" : 981916830,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981916831,
+          "allele1" : "*1",
+          "allele2" : "*1"
+        } ],
+        "displayName" : "TPMT *1",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA356",
+          "symbol" : "TPMT",
+          "name" : "thiopurine S-methyltransferase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819268",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819268",
+          "name" : "*1"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501930",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501930,
+        "src" : "guidelineStrength",
+        "term" : "Strong",
+        "termId" : "guidelineStrength:981501930"
+      },
+      "textHtml" : "<p>Start with normal starting dose. Adjust doses of thioguanine and of other myelosuppressive therapy without any special emphasis on thioguanine . Allow 2 weeks to reach steady state after each dose adjustment.</p>"
+    }, {
+      "id" : 981503100,
+      "diplotypeIds1" : [ "PA165819268" ],
+      "diplotypeIds2" : [ "PA165819272", "PA165819274", "PA165819271", "PA165819270", "PA165819269" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA451663",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA451663",
+        "name" : "thioguanine"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501928",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501928,
+        "src" : "guidelineTags",
+        "term" : "Recommendations",
+        "termId" : "guidelineTags:981501928"
+      } ],
+      "location" : {
+        "id" : 981919832,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981919833,
+          "allele1" : "*1",
+          "allele2" : "*2"
+        }, {
+          "id" : 981919834,
+          "allele1" : "*1",
+          "allele2" : "*3A"
+        }, {
+          "id" : 981919835,
+          "allele1" : "*1",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981919836,
+          "allele1" : "*1",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981919837,
+          "allele1" : "*1",
+          "allele2" : "*4"
+        } ],
+        "displayName" : "TPMT *1, TPMT *2, TPMT *3A, TPMT *3B, TPMT *3C, TPMT *4",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA356",
+          "symbol" : "TPMT",
+          "name" : "thiopurine S-methyltransferase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819268",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819268",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819269",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819269",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819270",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819270",
+          "name" : "*3A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819271",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819271",
+          "name" : "*3B"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819272",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819272",
+          "name" : "*3C"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819274",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819274",
+          "name" : "*4"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501931",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501931,
+        "src" : "guidelineStrength",
+        "term" : "Moderate",
+        "termId" : "guidelineStrength:981501931"
+      },
+      "textHtml" : "<p>Start with reduced doses (reduce by 30-50%) and adjust doses of thioguanine based on degree of myelosuppression and disease-specific guidelines. Allow 2-4 weeks to reach steady state after each dose adjustment. In setting of myelosuppression, and depending on other therapy, emphasis should be on reducing thioguanine over other agents.</p>"
+    } ]
+  } ],
+  "relatedDrugs" : [ {
+    "objCls" : "Drug",
+    "@id" : "https://www.pharmgkb.org/data/drug/PA451663",
+    "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+    "id" : "PA451663",
+    "name" : "thioguanine"
+  } ],
+  "relatedGenes" : [ {
+    "objCls" : "Gene",
+    "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+    "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+    "id" : "PA356",
+    "symbol" : "TPMT",
+    "name" : "thiopurine S-methyltransferase"
+  } ],
+  "released" : true,
+  "source" : "CPIC",
+  "summaryHtml" : "<p>Start with reduced doses of thioguanine for patients with one nonfunctional TPMT allele, or drastically reduced doses for patients with malignancy and two nonfunctional alleles; adjust dose based on degree of myelosuppression and disease-specific guidelines. Consider alternative nonthiopurine immunosuppressant therapy for patients with nonmalignant conditions and two nonfunctional alleles.</p>",
+  "textHtml" : "<h3 id=\"April2013Update\">April 2013 Update</h3><p><em>Advance online publication January 2013.</em></p><ul><li>The <a href=\"/redirect.jsp?p=http%3A%2F%2Fwww.nature.com%2Fclpt%2Fjournal%2Fvaop%2Fnaam%2Findex.html%2317012013\" target=\"offsite\">2013 update of CPIC guidelines regarding azathioprine, thioguanine and mercaptopurine</a>, have been published in Clinical Pharmacology and Therapeutics.  Literature published between June 2010-November 2012 was reviewed and there is <strong>no new evidence that would change the original guidelines. Therefore, the dosing recommendations in the original publication remain clinically current.</strong> </li><li>These guidelines are applicable to:<ul><li>pediatric patients </li><li>adult patients</li></ul></li><li>Download and read: <ul><li><a href=\"/download.do?objCls=Attachment&amp;objId=CPIC_TPMT_update.pdf\">Clinical Pharmacogenetics Implementation Consortium Guidelines for Thiopurine Methyltransferase Genotype and Thiopurine Dosing: 2013 Update</a></li><li><a href=\"/download.do?objCls=Attachment&amp;objId=CPIC_TPMT_update_supp.pdf\">2013 supplement</a></li></ul></li></ul><h3 id=\"March2011\">March 2011</h3><p><em>Advance online publication January 2011.</em></p><ul><li>Guidelines regarding the use of pharmacogenomic tests in dosing for azathioprine, thioguanine and mercaptopurine were published in Clinical Pharmacology and Therapeutics by the Clinical Pharmacogenetics Implementation Consortium (<a href=\"/contributors/consortia/cpic_profile.jsp\">CPIC</a>).  </li><li>Excerpt from the 2011 thiopurine dosing guidelines:<ul><li>\"Thiopurines are most commonly used to treat nonmalignant conditions but are also critical anticancer agents. The approach to dosing adjustments based on TPMT status may differ depending on the clinical indication and the propensity to initiate therapy at higher vs. lower starting doses. We and others advocate testing for TPMT status prior to initiating thiopurine therapy, so that starting dosages can be adjusted accordingly.\"</li></ul></li><li>Download and read:  <ul><li><a href=\"/download.do?objCls=Attachment&amp;objId=cpic-tpmt-article.pdf\">Clinical Pharmacogenetics Implementation Consortium Guidelines for Thiopurine Methyltransferase Genotype and Thiopurine Dosing</a> </li><li><a href=\"/download.do?objCls=Attachment&amp;objId=cpic-tpmt-supplement.pdf\">2011 supplement</a></li></ul></li></ul><h3 id=\"Table1RecommendeddosingofthioguaninebyTPMTphenotype\">Table 1: Recommended dosing of thioguanine by TPMT phenotype</h3><p><em>Adapted from Tables 1 and 2 of the 2011 guideline manuscript.</em></p><table class=\"table table-striped table-condensed table-hover table-bordered\"><tr><th> Phenotype (Genotype) </th><th> Examples of diplotypes </th><th> Implications for pharmacologic measures after thioguanine </th><th> Dosing recommendations for thioguanine </th><th> Classification of recommendations </th></tr><tr><td> Homozygous wild-type or normal, high activity (two functional *1 alleles) </td><td> *1/*1 </td><td> Lower concentrations of TGN metabolites, but note that TGN after thioguanine are 5-10x higher than TGN after mercaptopurine or azathioprine </td><td> Start with normal starting dose. Adjust doses of thioguanine and of other myelosuppressive therapy without any special emphasis on thioguanine . Allow 2 weeks to reach steady state after each dose adjustment. </td><td> Strong </td></tr><tr><td> Heterozygote or intermediate activity (one functional allele - *1, plus one nonfunctional allele - *2, *3A, *3B, *3C, or *4) </td><td> *1/*2, *1/*3A, *1/*3B, *1/*3C, *1/*4 </td><td> Moderate to high concentrations of TGN metabolites; but note that TGN after thioguanine are 5-10x higher than TGN after mercaptopurine or azathioprine </td><td> Start with reduced doses (reduce by 30-50%) and adjust doses of thioguanine based on degree of myelosuppression and disease-specific guidelines. Allow 2-4 weeks to reach steady state after each dose adjustment. In setting of myelosuppression, and depending on other therapy, emphasis should be on reducing thioguanine over other agents. </td><td> Medium </td></tr><tr><td> Homozygous variant, mutant, low, or deficient activity (two nonfunctional alleles - *2, *3A, *3B, *3C, or *4) </td><td> *3A/*3A, *2/*3A, *3C/*3A, *3C/*4, *3C/*2, *3A/*4 </td><td> Extremely high concentrations of TGN metabolites; fatal toxicity possible without dose decrease </td><td> Start with drastically reduced doses (reduce daily dose by 10-fold and dose thrice weekly instead of daily) and adjust doses of thioguanine based on degree of myelosuppression and disease-specific guidelines. Allow 4-6 weeks to reach steady state after each dose adjustment. In setting of myelosuppression, emphasis should be on reducing thioguanine over other agents. For nonmalignant conditions, consider alternative nonthiopurine immunosuppressant therapy. </td><td> Strong </td></tr></table>"
+}

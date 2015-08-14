@@ -1,0 +1,24 @@
+{
+  "objCls" : "Guideline",
+  "@id" : "https://www.pharmgkb.org/data/guideline/PA166116212",
+  "@context" : "https://www.pharmgkb.org/jsonld/guideline.jsonld",
+  "id" : "PA166116212",
+  "name" : "DosingGuideline PA166116212",
+  "relatedDrugs" : [ {
+    "objCls" : "Drug",
+    "@id" : "https://www.pharmgkb.org/data/drug/PA164713176",
+    "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+    "id" : "PA164713176",
+    "name" : "Platinum compounds"
+  } ],
+  "relatedGenes" : [ {
+    "objCls" : "Gene",
+    "@id" : "https://www.pharmgkb.org/data/gene/PA155",
+    "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+    "id" : "PA155",
+    "symbol" : "ERCC1",
+    "name" : "excision repair cross-complementing rodent repair deficiency, complementation group 1 (includes overlapping antisense sequence)"
+  } ],
+  "released" : false,
+  "source" : "CPIC"
+}

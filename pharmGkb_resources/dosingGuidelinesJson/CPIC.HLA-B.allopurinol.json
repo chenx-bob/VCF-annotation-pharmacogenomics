@@ -1,0 +1,449 @@
+{
+  "objCls" : "Guideline",
+  "@id" : "https://www.pharmgkb.org/data/guideline/PA166105003",
+  "@context" : "https://www.pharmgkb.org/jsonld/guideline.jsonld",
+  "id" : "PA166105003",
+  "name" : "CPIC Dosing Guideline for allopurinol and HLA-B",
+  "guides" : [ {
+    "locus" : "HLA-B",
+    "locusId" : "PA35056",
+    "alleles" : [ "*58:01", "other" ],
+    "anns" : [ {
+      "id" : 981789359,
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA448320",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA448320",
+        "name" : "allopurinol"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Low or reduced risk of allopurinol SCAR (Absence of *58:01 alleles (reported as &quot;negative&quot; on a genotyping test) )</p>"
+    }, {
+      "id" : 981789123,
+      "diplotypeIds1" : [ "PA165987831" ],
+      "diplotypeIds2" : [ "PA165987831" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA448320",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA448320",
+        "name" : "allopurinol"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 981925357,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981925358,
+          "allele1" : "*58:01",
+          "allele2" : "*58:01"
+        } ],
+        "displayName" : "HLA-B *58:01",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA35056",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA35056",
+          "symbol" : "HLA-B",
+          "name" : "major histocompatibility complex, class I, B"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165987831",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165987831",
+          "name" : "*58:01"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Significantly increased risk of allopurinol SCAR (Presence of at least one *58:01 allele (reported as &quot;positive&quot; on a genotyping test) )</p>"
+    }, {
+      "id" : 981789358,
+      "diplotypeIds1" : [ "PA165987831" ],
+      "diplotypeIds2" : [ null ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA448320",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA448320",
+        "name" : "allopurinol"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 981925359,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981925360,
+          "allele1" : "*58:01"
+        } ],
+        "displayName" : "HLA-B *58:01",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA35056",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA35056",
+          "symbol" : "HLA-B",
+          "name" : "major histocompatibility complex, class I, B"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165987831",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165987831",
+          "name" : "*58:01"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Significantly increased risk of allopurinol SCAR (Presence of at least one *58:01 allele (reported as &quot;positive&quot; on a genotyping test))</p>"
+    }, {
+      "id" : 981706678,
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA448320",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA448320",
+        "name" : "allopurinol"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Low or reduced risk of allopurinol-induced SCAR</p>"
+    }, {
+      "id" : 981706674,
+      "diplotypeIds1" : [ "PA165987831" ],
+      "diplotypeIds2" : [ "PA165987831" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA448320",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA448320",
+        "name" : "allopurinol"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 981921644,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981921645,
+          "allele1" : "*58:01",
+          "allele2" : "*58:01"
+        } ],
+        "displayName" : "HLA-B *58:01",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA35056",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA35056",
+          "symbol" : "HLA-B",
+          "name" : "major histocompatibility complex, class I, B"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165987831",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165987831",
+          "name" : "*58:01"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Significantly increased risk of allopurinol-induced SCAR</p>"
+    }, {
+      "id" : 981706676,
+      "diplotypeIds1" : [ "PA165987831" ],
+      "diplotypeIds2" : [ null ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA448320",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA448320",
+        "name" : "allopurinol"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 981921648,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981921649,
+          "allele1" : "*58:01"
+        } ],
+        "displayName" : "HLA-B *58:01",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA35056",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA35056",
+          "symbol" : "HLA-B",
+          "name" : "major histocompatibility complex, class I, B"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165987831",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165987831",
+          "name" : "*58:01"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Significantly increased risk of allopurinol-induced SCAR</p>"
+    }, {
+      "id" : 981706730,
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA448320",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA448320",
+        "name" : "allopurinol"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501928",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501928,
+        "src" : "guidelineTags",
+        "term" : "Recommendations",
+        "termId" : "guidelineTags:981501928"
+      } ],
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501930",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501930,
+        "src" : "guidelineStrength",
+        "term" : "Strong",
+        "termId" : "guidelineStrength:981501930"
+      },
+      "textHtml" : "<p>Use allopurinol per standard dosing guidelines.</p>"
+    }, {
+      "id" : 981706675,
+      "diplotypeIds1" : [ "PA165987831" ],
+      "diplotypeIds2" : [ "PA165987831" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA448320",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA448320",
+        "name" : "allopurinol"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501928",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501928,
+        "src" : "guidelineTags",
+        "term" : "Recommendations",
+        "termId" : "guidelineTags:981501928"
+      } ],
+      "location" : {
+        "id" : 981921646,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981921647,
+          "allele1" : "*58:01",
+          "allele2" : "*58:01"
+        } ],
+        "displayName" : "HLA-B *58:01",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA35056",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA35056",
+          "symbol" : "HLA-B",
+          "name" : "major histocompatibility complex, class I, B"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165987831",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165987831",
+          "name" : "*58:01"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501930",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501930,
+        "src" : "guidelineStrength",
+        "term" : "Strong",
+        "termId" : "guidelineStrength:981501930"
+      },
+      "textHtml" : "<p>Allopurinol is contraindicated.</p>"
+    }, {
+      "id" : 981706677,
+      "diplotypeIds1" : [ "PA165987831" ],
+      "diplotypeIds2" : [ null ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA448320",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA448320",
+        "name" : "allopurinol"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501928",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501928,
+        "src" : "guidelineTags",
+        "term" : "Recommendations",
+        "termId" : "guidelineTags:981501928"
+      } ],
+      "location" : {
+        "id" : 981921650,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981921651,
+          "allele1" : "*58:01"
+        } ],
+        "displayName" : "HLA-B *58:01",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA35056",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA35056",
+          "symbol" : "HLA-B",
+          "name" : "major histocompatibility complex, class I, B"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165987831",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165987831",
+          "name" : "*58:01"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501930",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501930,
+        "src" : "guidelineStrength",
+        "term" : "Strong",
+        "termId" : "guidelineStrength:981501930"
+      },
+      "textHtml" : "<p>Allopurinol is contraindicated.</p>"
+    } ]
+  } ],
+  "relatedDrugs" : [ {
+    "objCls" : "Drug",
+    "@id" : "https://www.pharmgkb.org/data/drug/PA448320",
+    "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+    "id" : "PA448320",
+    "name" : "allopurinol"
+  } ],
+  "relatedGenes" : [ {
+    "objCls" : "Gene",
+    "@id" : "https://www.pharmgkb.org/data/gene/PA35056",
+    "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+    "id" : "PA35056",
+    "symbol" : "HLA-B",
+    "name" : "major histocompatibility complex, class I, B"
+  } ],
+  "released" : true,
+  "source" : "CPIC",
+  "summaryHtml" : "<p>Allopurinol is contraindicated in individuals with the HLA-B*58:01 variant allele (\"HLA-B*58:01-positive\") due to significantly increased risk of allopurinol-induced SCAR.</p>",
+  "textHtml" : "<h3 id=\"February2013\">February 2013</h3><p><em>Advanced online publication December 2012</em></p><ul><li>Guidelines regarding the use of pharmacogenomic tests in dosing for allopurinol have been published in Clinical Pharmacology and Therapeutics by the Clinical Pharmacogenetics Implementation Consortium <a href=\"/contributors/consortia/cpic_profile.jsp\">(CPIC)</a>.</li><li>These guidelines are applicable to:<ul><li>adults</li></ul></li><li>Excerpt from the 2013 allopurinol dosing guidelines:<ul><li>\"Allopurinol is the most commonly used drug for the treatment of hyperuricemia and gout; however, allopurinol is also one of the most common causes of severe cutaneous adverse reactions (SCAR), which includes drug hypersensitivity syndrome, Stevens-Johnson syndrome (SJS) and toxic epidermal necrolysis (TEN). A variant allele of the human leukocyte antigen-B, HLA-B*5801, associates strongly with allopurinol-induced SCAR. We have summarized evidence from the published literatures and develop peer-reviewed guidelines for allopurinol use based on HLA-B genotype.\"</li></ul></li><li>Download and read:<ul><li> <a href=\"/download.do?objCls=Attachment&amp;objId=CPIC_HLAB-Allopurinol.pdf\">Clinical Pharmacogenetics Implementation Consortium (CPIC) Guidelines for Human Leukocyte Antigen-B Genotype and Allopurinol Dosing</a> </li><li><a href=\"/download.do?objCls=Attachment&amp;objId=CPIC_HLAB-Allopurinol_Supplemental_Material.pdf\">2013 supplement</a>. </li></ul></li></ul><h3 id=\"Table1RecommendeddosingofallopurinolbasedonHLABgenotype\">Table 1: Recommended dosing of allopurinol based on <em>HLA-B</em> genotype</h3><table class=\"table table-striped table-condensed table-hover table-bordered\"><tr><th> Likely Phenotype </th><th> Genotypes </th><th> Examples of diplotypes </th><th> Implications for phenotypic measures   </th><th> Recommendations for allopurinol therapy </th><th> Classification of recommendation for allopurinol therapy </th></tr><tr><td> Low or reduced risk of allopurinol SCAR </td><td> Absence of <em>*58:01</em> alleles (reported as \"negative\" on a genotyping test)</td><td> *X/*X <sup>a</sup></td><td>  Low or reduced risk of allopurinol SCAR  </td><td>  Use allopurinol per standard dosing guidelines </td><td>  Strong </td></tr><tr><td>Significantly increased risk of allopurinol SCAR </td><td> Presence of at least one <em>*58:01</em> allele (reported as \"positive\" on a genotyping test) </td><td> <em>*58:01</em>/*X <sup>a</sup> <em>*58:01/*58:01</em> </td><td> Significantly increased risk of allopurinol SCAR</td><td> Allopurinol is contraindicated </td><td>  Strong </td></tr></table><p><em>Adapted from Table 2 of the 2013 Guideline Manuscript</em></p><p><sup>a</sup> *X = any <em>HLA-B</em> genotype other than <em>*58:01</em>.<br/><em>HLA-B</em> = human leukocyte antigen B</p>"
+}

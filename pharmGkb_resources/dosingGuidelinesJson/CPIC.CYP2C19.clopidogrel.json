@@ -1,0 +1,2705 @@
+{
+  "objCls" : "Guideline",
+  "@id" : "https://www.pharmgkb.org/data/guideline/PA166104948",
+  "@context" : "https://www.pharmgkb.org/jsonld/guideline.jsonld",
+  "id" : "PA166104948",
+  "name" : "CPIC Dosing Guideline for clopidogrel and CYP2C19",
+  "guides" : [ {
+    "locus" : "CYP2C19",
+    "locusId" : "PA124",
+    "alleles" : [ "*1", "*2", "*3", "*4", "*5", "*6", "*7", "*8", "*17" ],
+    "anns" : [ {
+      "id" : 981706650,
+      "diplotypeIds1" : [ "PA165980634", "PA165816533" ],
+      "diplotypeIds2" : [ "PA165816533" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 981916298,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981916299,
+          "allele1" : "*1",
+          "allele2" : "*17"
+        }, {
+          "id" : 981916300,
+          "allele1" : "*17",
+          "allele2" : "*17"
+        } ],
+        "displayName" : "CYP2C19 *1, CYP2C19 *17",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980634",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980634",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816533",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816533",
+          "name" : "*17"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>An individual carrying two increased-activity alleles, or one functional plus one increased-activity allele</p>"
+    }, {
+      "id" : 981706637,
+      "diplotypeIds1" : [ "PA165980634" ],
+      "diplotypeIds2" : [ "PA165980634" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 981916897,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981916898,
+          "allele1" : "*1",
+          "allele2" : "*1"
+        } ],
+        "displayName" : "CYP2C19 *1",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980634",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980634",
+          "name" : "*1"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>An individual carrying two functional alleles</p>"
+    }, {
+      "id" : 981706662,
+      "diplotypeIds1" : [ "PA165816524", "PA165816523", "PA165980635", "PA165980636", "PA165980637", "PA165980638", "PA165816522" ],
+      "diplotypeIds2" : [ "PA165816524", "PA165816523", "PA165980635", "PA165980636", "PA165980637", "PA165980638", "PA165816522" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 982009857,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 982009898,
+          "allele1" : "*2",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009899,
+          "allele1" : "*2",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009893,
+          "allele1" : "*2",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009894,
+          "allele1" : "*2",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009897,
+          "allele1" : "*2",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009895,
+          "allele1" : "*2",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009896,
+          "allele1" : "*2",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009905,
+          "allele1" : "*3",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009906,
+          "allele1" : "*3",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009900,
+          "allele1" : "*3",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009901,
+          "allele1" : "*3",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009904,
+          "allele1" : "*3",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009902,
+          "allele1" : "*3",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009903,
+          "allele1" : "*3",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009863,
+          "allele1" : "*4",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009864,
+          "allele1" : "*4",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009858,
+          "allele1" : "*4",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009859,
+          "allele1" : "*4",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009862,
+          "allele1" : "*4",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009860,
+          "allele1" : "*4",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009861,
+          "allele1" : "*4",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009870,
+          "allele1" : "*5",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009871,
+          "allele1" : "*5",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009865,
+          "allele1" : "*5",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009866,
+          "allele1" : "*5",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009869,
+          "allele1" : "*5",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009867,
+          "allele1" : "*5",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009868,
+          "allele1" : "*5",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009891,
+          "allele1" : "*6",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009892,
+          "allele1" : "*6",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009886,
+          "allele1" : "*6",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009887,
+          "allele1" : "*6",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009890,
+          "allele1" : "*6",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009888,
+          "allele1" : "*6",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009889,
+          "allele1" : "*6",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009877,
+          "allele1" : "*7",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009878,
+          "allele1" : "*7",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009872,
+          "allele1" : "*7",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009873,
+          "allele1" : "*7",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009876,
+          "allele1" : "*7",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009874,
+          "allele1" : "*7",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009875,
+          "allele1" : "*7",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009884,
+          "allele1" : "*8",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009885,
+          "allele1" : "*8",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009879,
+          "allele1" : "*8",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009880,
+          "allele1" : "*8",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009883,
+          "allele1" : "*8",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009881,
+          "allele1" : "*8",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009882,
+          "allele1" : "*8",
+          "allele2" : "*8"
+        } ],
+        "displayName" : "CYP2C19 *2, CYP2C19 *3, CYP2C19 *4, CYP2C19 *5, CYP2C19 *6, CYP2C19 *7, CYP2C19 *8",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980635",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980635",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980636",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980636",
+          "name" : "*3"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980637",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980637",
+          "name" : "*4"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980638",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980638",
+          "name" : "*5"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816522",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816522",
+          "name" : "*6"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816523",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816523",
+          "name" : "*7"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816524",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816524",
+          "name" : "*8"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>An individual carrying two loss-of-function alleles</p>"
+    }, {
+      "id" : 981706658,
+      "diplotypeIds1" : [ "PA165980634" ],
+      "diplotypeIds2" : [ "PA165816524", "PA165816523", "PA165980635", "PA165980636", "PA165980637", "PA165980638", "PA165816522" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 982009957,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 982009963,
+          "allele1" : "*1",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009964,
+          "allele1" : "*1",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009958,
+          "allele1" : "*1",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009959,
+          "allele1" : "*1",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009962,
+          "allele1" : "*1",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009960,
+          "allele1" : "*1",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009961,
+          "allele1" : "*1",
+          "allele2" : "*8"
+        } ],
+        "displayName" : "CYP2C19 *1, CYP2C19 *2, CYP2C19 *3, CYP2C19 *4, CYP2C19 *5, CYP2C19 *6, CYP2C19 *7, CYP2C19 *8",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980634",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980634",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980635",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980635",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980636",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980636",
+          "name" : "*3"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980637",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980637",
+          "name" : "*4"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980638",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980638",
+          "name" : "*5"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816522",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816522",
+          "name" : "*6"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816523",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816523",
+          "name" : "*7"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816524",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816524",
+          "name" : "*8"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>An individual carrying one functional allele plus one loss-of-function allele</p>"
+    }, {
+      "id" : 982010055,
+      "diplotypeIds1" : [ "PA165816524", "PA165816523", "PA165980635", "PA165980636", "PA165980637", "PA165980638", "PA165816522" ],
+      "diplotypeIds2" : [ "PA165816533" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 982015487,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 982015493,
+          "allele1" : "*2",
+          "allele2" : "*17"
+        }, {
+          "id" : 982015494,
+          "allele1" : "*3",
+          "allele2" : "*17"
+        }, {
+          "id" : 982015488,
+          "allele1" : "*4",
+          "allele2" : "*17"
+        }, {
+          "id" : 982015489,
+          "allele1" : "*5",
+          "allele2" : "*17"
+        }, {
+          "id" : 982015492,
+          "allele1" : "*6",
+          "allele2" : "*17"
+        }, {
+          "id" : 982015490,
+          "allele1" : "*7",
+          "allele2" : "*17"
+        }, {
+          "id" : 982015491,
+          "allele1" : "*8",
+          "allele2" : "*17"
+        } ],
+        "displayName" : "CYP2C19 *17, CYP2C19 *2, CYP2C19 *3, CYP2C19 *4, CYP2C19 *5, CYP2C19 *6, CYP2C19 *7, CYP2C19 *8",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816533",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816533",
+          "name" : "*17"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980635",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980635",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980636",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980636",
+          "name" : "*3"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980637",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980637",
+          "name" : "*4"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980638",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980638",
+          "name" : "*5"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816522",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816522",
+          "name" : "*6"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816523",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816523",
+          "name" : "*7"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816524",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816524",
+          "name" : "*8"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>An individual carrying one loss-of-function allele plus one increased activity allele</p>"
+    }, {
+      "id" : 981706635,
+      "diplotypeIds1" : [ "PA165980634" ],
+      "diplotypeIds2" : [ "PA165980634" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501926",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501926,
+        "src" : "guidelineTags",
+        "term" : "Metabolizer Status",
+        "termId" : "guidelineTags:981501926"
+      } ],
+      "location" : {
+        "id" : 981916895,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981916896,
+          "allele1" : "*1",
+          "allele2" : "*1"
+        } ],
+        "displayName" : "CYP2C19 *1",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980634",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980634",
+          "name" : "*1"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Extensive metabolizer</p>"
+    }, {
+      "id" : 981706646,
+      "diplotypeIds1" : [ "PA165980634", "PA165816533" ],
+      "diplotypeIds2" : [ "PA165816533" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501926",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501926,
+        "src" : "guidelineTags",
+        "term" : "Metabolizer Status",
+        "termId" : "guidelineTags:981501926"
+      } ],
+      "location" : {
+        "id" : 981917190,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981917191,
+          "allele1" : "*1",
+          "allele2" : "*17"
+        }, {
+          "id" : 981917192,
+          "allele1" : "*17",
+          "allele2" : "*17"
+        } ],
+        "displayName" : "CYP2C19 *1, CYP2C19 *17",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980634",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980634",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816533",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816533",
+          "name" : "*17"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Ultrarapid metabolizer</p>"
+    }, {
+      "id" : 981706661,
+      "diplotypeIds1" : [ "PA165816524", "PA165816523", "PA165980635", "PA165980636", "PA165980637", "PA165980638", "PA165816522" ],
+      "diplotypeIds2" : [ "PA165816524", "PA165816523", "PA165980635", "PA165980636", "PA165980637", "PA165980638", "PA165816522" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501926",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501926,
+        "src" : "guidelineTags",
+        "term" : "Metabolizer Status",
+        "termId" : "guidelineTags:981501926"
+      } ],
+      "location" : {
+        "id" : 982009730,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 982009771,
+          "allele1" : "*2",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009772,
+          "allele1" : "*2",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009766,
+          "allele1" : "*2",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009767,
+          "allele1" : "*2",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009770,
+          "allele1" : "*2",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009768,
+          "allele1" : "*2",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009769,
+          "allele1" : "*2",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009778,
+          "allele1" : "*3",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009779,
+          "allele1" : "*3",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009773,
+          "allele1" : "*3",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009774,
+          "allele1" : "*3",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009777,
+          "allele1" : "*3",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009775,
+          "allele1" : "*3",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009776,
+          "allele1" : "*3",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009736,
+          "allele1" : "*4",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009737,
+          "allele1" : "*4",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009731,
+          "allele1" : "*4",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009732,
+          "allele1" : "*4",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009735,
+          "allele1" : "*4",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009733,
+          "allele1" : "*4",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009734,
+          "allele1" : "*4",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009743,
+          "allele1" : "*5",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009744,
+          "allele1" : "*5",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009738,
+          "allele1" : "*5",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009739,
+          "allele1" : "*5",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009742,
+          "allele1" : "*5",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009740,
+          "allele1" : "*5",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009741,
+          "allele1" : "*5",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009764,
+          "allele1" : "*6",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009765,
+          "allele1" : "*6",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009759,
+          "allele1" : "*6",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009760,
+          "allele1" : "*6",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009763,
+          "allele1" : "*6",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009761,
+          "allele1" : "*6",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009762,
+          "allele1" : "*6",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009750,
+          "allele1" : "*7",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009751,
+          "allele1" : "*7",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009745,
+          "allele1" : "*7",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009746,
+          "allele1" : "*7",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009749,
+          "allele1" : "*7",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009747,
+          "allele1" : "*7",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009748,
+          "allele1" : "*7",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009757,
+          "allele1" : "*8",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009758,
+          "allele1" : "*8",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009752,
+          "allele1" : "*8",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009753,
+          "allele1" : "*8",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009756,
+          "allele1" : "*8",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009754,
+          "allele1" : "*8",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009755,
+          "allele1" : "*8",
+          "allele2" : "*8"
+        } ],
+        "displayName" : "CYP2C19 *2, CYP2C19 *3, CYP2C19 *4, CYP2C19 *5, CYP2C19 *6, CYP2C19 *7, CYP2C19 *8",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980635",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980635",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980636",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980636",
+          "name" : "*3"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980637",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980637",
+          "name" : "*4"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980638",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980638",
+          "name" : "*5"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816522",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816522",
+          "name" : "*6"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816523",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816523",
+          "name" : "*7"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816524",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816524",
+          "name" : "*8"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Poor metabolizer</p>"
+    }, {
+      "id" : 981706657,
+      "diplotypeIds1" : [ "PA165980634" ],
+      "diplotypeIds2" : [ "PA165816524", "PA165816523", "PA165980635", "PA165980636", "PA165980637", "PA165980638", "PA165816522" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501926",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501926,
+        "src" : "guidelineTags",
+        "term" : "Metabolizer Status",
+        "termId" : "guidelineTags:981501926"
+      } ],
+      "location" : {
+        "id" : 982009782,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 982009788,
+          "allele1" : "*1",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009789,
+          "allele1" : "*1",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009783,
+          "allele1" : "*1",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009784,
+          "allele1" : "*1",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009787,
+          "allele1" : "*1",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009785,
+          "allele1" : "*1",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009786,
+          "allele1" : "*1",
+          "allele2" : "*8"
+        } ],
+        "displayName" : "CYP2C19 *1, CYP2C19 *2, CYP2C19 *3, CYP2C19 *4, CYP2C19 *5, CYP2C19 *6, CYP2C19 *7, CYP2C19 *8",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980634",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980634",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980635",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980635",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980636",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980636",
+          "name" : "*3"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980637",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980637",
+          "name" : "*4"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980638",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980638",
+          "name" : "*5"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816522",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816522",
+          "name" : "*6"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816523",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816523",
+          "name" : "*7"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816524",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816524",
+          "name" : "*8"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Intermediate metabolizer</p>"
+    }, {
+      "id" : 982010050,
+      "diplotypeIds1" : [ "PA165980635" ],
+      "diplotypeIds2" : [ "PA165816533" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501926",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501926,
+        "src" : "guidelineTags",
+        "term" : "Metabolizer Status",
+        "termId" : "guidelineTags:981501926"
+      } ],
+      "location" : {
+        "id" : 982015284,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 982015285,
+          "allele1" : "*2",
+          "allele2" : "*17"
+        } ],
+        "displayName" : "CYP2C19 *17, CYP2C19 *2",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816533",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816533",
+          "name" : "*17"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980635",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980635",
+          "name" : "*2"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Intermediate metabolizer</p><p><em>The currently available evidence indicates that the *17 gain-of-function allele is unable to completely compensate for the *2 loss-of-function allele <a href=\"Article:20492469\">Article:20492469</a>; however, this data has not been consistently replicated and is therefore a provisional classification.</em></p>"
+    }, {
+      "id" : 982015486,
+      "diplotypeIds1" : [ "PA165816524", "PA165816523", "PA165980636", "PA165980637", "PA165980638", "PA165816522" ],
+      "diplotypeIds2" : [ "PA165816533" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501926",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501926,
+        "src" : "guidelineTags",
+        "term" : "Metabolizer Status",
+        "termId" : "guidelineTags:981501926"
+      } ],
+      "location" : {
+        "id" : 982015479,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 982015485,
+          "allele1" : "*3",
+          "allele2" : "*17"
+        }, {
+          "id" : 982015480,
+          "allele1" : "*4",
+          "allele2" : "*17"
+        }, {
+          "id" : 982015481,
+          "allele1" : "*5",
+          "allele2" : "*17"
+        }, {
+          "id" : 982015484,
+          "allele1" : "*6",
+          "allele2" : "*17"
+        }, {
+          "id" : 982015482,
+          "allele1" : "*7",
+          "allele2" : "*17"
+        }, {
+          "id" : 982015483,
+          "allele1" : "*8",
+          "allele2" : "*17"
+        } ],
+        "displayName" : "CYP2C19 *17, CYP2C19 *3, CYP2C19 *4, CYP2C19 *5, CYP2C19 *6, CYP2C19 *7, CYP2C19 *8",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816533",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816533",
+          "name" : "*17"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980636",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980636",
+          "name" : "*3"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980637",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980637",
+          "name" : "*4"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980638",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980638",
+          "name" : "*5"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816522",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816522",
+          "name" : "*6"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816523",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816523",
+          "name" : "*7"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816524",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816524",
+          "name" : "*8"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Intermediate metabolizer</p><p><em>Some rare genotype combinations have unclear predicted metabolic phenotypes; see Supplemental Table S3 (<a href=\"/download.action?filename=CPIC_2C19_clopidogrel_supplement2013.pdf\">supplement (update)</a>). The currently available evidence indicates that the *17 gain-of-function allele is unable to completely compensate for the *2 loss-of-function allele Article:20492469; however, this data has not been consistently replicated and is therefore a provisional classification.</em></p>"
+    }, {
+      "id" : 981706645,
+      "diplotypeIds1" : [ "PA165980634", "PA165816533" ],
+      "diplotypeIds2" : [ "PA165816533" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 981915552,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981915553,
+          "allele1" : "*1",
+          "allele2" : "*17"
+        }, {
+          "id" : 981915554,
+          "allele1" : "*17",
+          "allele2" : "*17"
+        } ],
+        "displayName" : "CYP2C19 *1, CYP2C19 *17",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980634",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980634",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816533",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816533",
+          "name" : "*17"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Increased platelet inhibition; decreased residual platelet aggregation</p>"
+    }, {
+      "id" : 981706625,
+      "diplotypeIds1" : [ "PA165980634" ],
+      "diplotypeIds2" : [ "PA165980634" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 981916864,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981916865,
+          "allele1" : "*1",
+          "allele2" : "*1"
+        } ],
+        "displayName" : "CYP2C19 *1",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980634",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980634",
+          "name" : "*1"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Normal platelet inhibition; normal residual platelet aggregation</p>"
+    }, {
+      "id" : 981706660,
+      "diplotypeIds1" : [ "PA165816524", "PA165816523", "PA165980635", "PA165980636", "PA165980637", "PA165980638", "PA165816522" ],
+      "diplotypeIds2" : [ "PA165816524", "PA165816523", "PA165980635", "PA165980636", "PA165980637", "PA165980638", "PA165816522" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 982009907,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 982009948,
+          "allele1" : "*2",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009949,
+          "allele1" : "*2",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009943,
+          "allele1" : "*2",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009944,
+          "allele1" : "*2",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009947,
+          "allele1" : "*2",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009945,
+          "allele1" : "*2",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009946,
+          "allele1" : "*2",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009955,
+          "allele1" : "*3",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009956,
+          "allele1" : "*3",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009950,
+          "allele1" : "*3",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009951,
+          "allele1" : "*3",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009954,
+          "allele1" : "*3",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009952,
+          "allele1" : "*3",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009953,
+          "allele1" : "*3",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009913,
+          "allele1" : "*4",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009914,
+          "allele1" : "*4",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009908,
+          "allele1" : "*4",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009909,
+          "allele1" : "*4",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009912,
+          "allele1" : "*4",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009910,
+          "allele1" : "*4",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009911,
+          "allele1" : "*4",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009920,
+          "allele1" : "*5",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009921,
+          "allele1" : "*5",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009915,
+          "allele1" : "*5",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009916,
+          "allele1" : "*5",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009919,
+          "allele1" : "*5",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009917,
+          "allele1" : "*5",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009918,
+          "allele1" : "*5",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009941,
+          "allele1" : "*6",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009942,
+          "allele1" : "*6",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009936,
+          "allele1" : "*6",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009937,
+          "allele1" : "*6",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009940,
+          "allele1" : "*6",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009938,
+          "allele1" : "*6",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009939,
+          "allele1" : "*6",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009927,
+          "allele1" : "*7",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009928,
+          "allele1" : "*7",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009922,
+          "allele1" : "*7",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009923,
+          "allele1" : "*7",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009926,
+          "allele1" : "*7",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009924,
+          "allele1" : "*7",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009925,
+          "allele1" : "*7",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009934,
+          "allele1" : "*8",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009935,
+          "allele1" : "*8",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009929,
+          "allele1" : "*8",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009930,
+          "allele1" : "*8",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009933,
+          "allele1" : "*8",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009931,
+          "allele1" : "*8",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009932,
+          "allele1" : "*8",
+          "allele2" : "*8"
+        } ],
+        "displayName" : "CYP2C19 *2, CYP2C19 *3, CYP2C19 *4, CYP2C19 *5, CYP2C19 *6, CYP2C19 *7, CYP2C19 *8",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980635",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980635",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980636",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980636",
+          "name" : "*3"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980637",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980637",
+          "name" : "*4"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980638",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980638",
+          "name" : "*5"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816522",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816522",
+          "name" : "*6"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816523",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816523",
+          "name" : "*7"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816524",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816524",
+          "name" : "*8"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Significantly reduced platelet inhibition; increased residual platelet aggregation; increased risk for adverse cardiovascular events</p>"
+    }, {
+      "id" : 981706656,
+      "diplotypeIds1" : [ "PA165980634" ],
+      "diplotypeIds2" : [ "PA165816524", "PA165816523", "PA165980635", "PA165980636", "PA165980637", "PA165980638", "PA165816522" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 982009966,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 982009972,
+          "allele1" : "*1",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009973,
+          "allele1" : "*1",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009967,
+          "allele1" : "*1",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009968,
+          "allele1" : "*1",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009971,
+          "allele1" : "*1",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009969,
+          "allele1" : "*1",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009970,
+          "allele1" : "*1",
+          "allele2" : "*8"
+        } ],
+        "displayName" : "CYP2C19 *1, CYP2C19 *2, CYP2C19 *3, CYP2C19 *4, CYP2C19 *5, CYP2C19 *6, CYP2C19 *7, CYP2C19 *8",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980634",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980634",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980635",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980635",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980636",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980636",
+          "name" : "*3"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980637",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980637",
+          "name" : "*4"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980638",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980638",
+          "name" : "*5"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816522",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816522",
+          "name" : "*6"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816523",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816523",
+          "name" : "*7"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816524",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816524",
+          "name" : "*8"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Reduced platelet inhibition; increased residual platelet aggregation; increased risk for adverse cardiovascular events</p>"
+    }, {
+      "id" : 982010065,
+      "diplotypeIds1" : [ "PA165816524", "PA165816523", "PA165980635", "PA165980636", "PA165980637", "PA165980638", "PA165816522" ],
+      "diplotypeIds2" : [ "PA165816533" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 982022284,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 982022290,
+          "allele1" : "*2",
+          "allele2" : "*17"
+        }, {
+          "id" : 982022291,
+          "allele1" : "*3",
+          "allele2" : "*17"
+        }, {
+          "id" : 982022285,
+          "allele1" : "*4",
+          "allele2" : "*17"
+        }, {
+          "id" : 982022286,
+          "allele1" : "*5",
+          "allele2" : "*17"
+        }, {
+          "id" : 982022289,
+          "allele1" : "*6",
+          "allele2" : "*17"
+        }, {
+          "id" : 982022287,
+          "allele1" : "*7",
+          "allele2" : "*17"
+        }, {
+          "id" : 982022288,
+          "allele1" : "*8",
+          "allele2" : "*17"
+        } ],
+        "displayName" : "CYP2C19 *17, CYP2C19 *2, CYP2C19 *3, CYP2C19 *4, CYP2C19 *5, CYP2C19 *6, CYP2C19 *7, CYP2C19 *8",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816533",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816533",
+          "name" : "*17"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980635",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980635",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980636",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980636",
+          "name" : "*3"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980637",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980637",
+          "name" : "*4"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980638",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980638",
+          "name" : "*5"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816522",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816522",
+          "name" : "*6"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816523",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816523",
+          "name" : "*7"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816524",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816524",
+          "name" : "*8"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Reduced platelet inhibition; increased residual platelet aggregation; increased risk for adverse cardiovascular events</p>"
+    }, {
+      "id" : 981706640,
+      "diplotypeIds1" : [ "PA165980634" ],
+      "diplotypeIds2" : [ "PA165980634" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501928",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501928,
+        "src" : "guidelineTags",
+        "term" : "Recommendations",
+        "termId" : "guidelineTags:981501928"
+      } ],
+      "location" : {
+        "id" : 981915198,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981915199,
+          "allele1" : "*1",
+          "allele2" : "*1"
+        } ],
+        "displayName" : "CYP2C19 *1",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980634",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980634",
+          "name" : "*1"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501930",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501930,
+        "src" : "guidelineStrength",
+        "term" : "Strong",
+        "termId" : "guidelineStrength:981501930"
+      },
+      "textHtml" : "<p>Clopidogrel-label recommended dosage and administration</p><p><em>At the time of the development of this recommendation, there are no data available on the possible role of CYP2C19 in clopidogrel response in pediatric patient populations; however, there is no reason to suspect that CYP2C19 variant alleles would affect clopidogrel metabolism differently in children compared to adults. Please see below for full details of these guidelines, with supporting evidence and disclaimers.</em></p>"
+    }, {
+      "id" : 981706653,
+      "diplotypeIds1" : [ "PA165980634", "PA165816533" ],
+      "diplotypeIds2" : [ "PA165816533" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501928",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501928,
+        "src" : "guidelineTags",
+        "term" : "Recommendations",
+        "termId" : "guidelineTags:981501928"
+      } ],
+      "location" : {
+        "id" : 981925361,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981925362,
+          "allele1" : "*1",
+          "allele2" : "*17"
+        }, {
+          "id" : 981925363,
+          "allele1" : "*17",
+          "allele2" : "*17"
+        } ],
+        "displayName" : "CYP2C19 *1, CYP2C19 *17",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980634",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980634",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816533",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816533",
+          "name" : "*17"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501930",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501930,
+        "src" : "guidelineStrength",
+        "term" : "Strong",
+        "termId" : "guidelineStrength:981501930"
+      },
+      "textHtml" : "<p>Clopidogrel-label recommended dosage and administration</p><p><em>At the time of the development of this recommendation, there are no data available on the possible role of CYP2C19 in clopidogrel response in pediatric patient populations; however, there is no reason to suspect that CYP2C19 variant alleles would affect clopidogrel metabolism differently in children compared to adults. Please see below for full details of these guidelines, with supporting evidence and disclaimers.</em></p>"
+    }, {
+      "id" : 981794689,
+      "diplotypeIds1" : [ "PA165980634" ],
+      "diplotypeIds2" : [ "PA165816524", "PA165816523", "PA165980635", "PA165980636", "PA165980637", "PA165980638", "PA165816522" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501928",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501928,
+        "src" : "guidelineTags",
+        "term" : "Recommendations",
+        "termId" : "guidelineTags:981501928"
+      } ],
+      "location" : {
+        "id" : 982009791,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 982009797,
+          "allele1" : "*1",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009798,
+          "allele1" : "*1",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009792,
+          "allele1" : "*1",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009793,
+          "allele1" : "*1",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009796,
+          "allele1" : "*1",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009794,
+          "allele1" : "*1",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009795,
+          "allele1" : "*1",
+          "allele2" : "*8"
+        } ],
+        "displayName" : "CYP2C19 *1, CYP2C19 *2, CYP2C19 *3, CYP2C19 *4, CYP2C19 *5, CYP2C19 *6, CYP2C19 *7, CYP2C19 *8",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980634",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980634",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980635",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980635",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980636",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980636",
+          "name" : "*3"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980637",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980637",
+          "name" : "*4"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980638",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980638",
+          "name" : "*5"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816522",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816522",
+          "name" : "*6"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816523",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816523",
+          "name" : "*7"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816524",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816524",
+          "name" : "*8"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501931",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501931,
+        "src" : "guidelineStrength",
+        "term" : "Moderate",
+        "termId" : "guidelineStrength:981501931"
+      },
+      "textHtml" : "<p>Alternative antiplatelet therapy (if no contraindication); e.g., prasugrel, ticagrelor</p><p><em>These recommendations apply predominantly to ACS patients undergoing PCI.<br/>At the time of the development of this recommendation, there are no data available on the possible role of CYP2C19 in clopidogrel response in pediatric patient populations; however, there is no reason to suspect that CYP2C19 variant alleles would affect clopidogrel metabolism differently in children compared to adults. Please see below for full details of these guidelines, with supporting evidence and disclaimers.</em></p>"
+    }, {
+      "id" : 981706663,
+      "diplotypeIds1" : [ "PA165816524", "PA165816523", "PA165980635", "PA165980636", "PA165980637", "PA165980638", "PA165816522" ],
+      "diplotypeIds2" : [ "PA165816524", "PA165816523", "PA165980635", "PA165980636", "PA165980637", "PA165980638", "PA165816522" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501928",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501928,
+        "src" : "guidelineTags",
+        "term" : "Recommendations",
+        "termId" : "guidelineTags:981501928"
+      } ],
+      "location" : {
+        "id" : 982009800,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 982009841,
+          "allele1" : "*2",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009842,
+          "allele1" : "*2",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009836,
+          "allele1" : "*2",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009837,
+          "allele1" : "*2",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009840,
+          "allele1" : "*2",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009838,
+          "allele1" : "*2",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009839,
+          "allele1" : "*2",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009848,
+          "allele1" : "*3",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009849,
+          "allele1" : "*3",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009843,
+          "allele1" : "*3",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009844,
+          "allele1" : "*3",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009847,
+          "allele1" : "*3",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009845,
+          "allele1" : "*3",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009846,
+          "allele1" : "*3",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009806,
+          "allele1" : "*4",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009807,
+          "allele1" : "*4",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009801,
+          "allele1" : "*4",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009802,
+          "allele1" : "*4",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009805,
+          "allele1" : "*4",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009803,
+          "allele1" : "*4",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009804,
+          "allele1" : "*4",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009813,
+          "allele1" : "*5",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009814,
+          "allele1" : "*5",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009808,
+          "allele1" : "*5",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009809,
+          "allele1" : "*5",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009812,
+          "allele1" : "*5",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009810,
+          "allele1" : "*5",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009811,
+          "allele1" : "*5",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009834,
+          "allele1" : "*6",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009835,
+          "allele1" : "*6",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009829,
+          "allele1" : "*6",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009830,
+          "allele1" : "*6",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009833,
+          "allele1" : "*6",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009831,
+          "allele1" : "*6",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009832,
+          "allele1" : "*6",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009820,
+          "allele1" : "*7",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009821,
+          "allele1" : "*7",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009815,
+          "allele1" : "*7",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009816,
+          "allele1" : "*7",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009819,
+          "allele1" : "*7",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009817,
+          "allele1" : "*7",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009818,
+          "allele1" : "*7",
+          "allele2" : "*8"
+        }, {
+          "id" : 982009827,
+          "allele1" : "*8",
+          "allele2" : "*2"
+        }, {
+          "id" : 982009828,
+          "allele1" : "*8",
+          "allele2" : "*3"
+        }, {
+          "id" : 982009822,
+          "allele1" : "*8",
+          "allele2" : "*4"
+        }, {
+          "id" : 982009823,
+          "allele1" : "*8",
+          "allele2" : "*5"
+        }, {
+          "id" : 982009826,
+          "allele1" : "*8",
+          "allele2" : "*6"
+        }, {
+          "id" : 982009824,
+          "allele1" : "*8",
+          "allele2" : "*7"
+        }, {
+          "id" : 982009825,
+          "allele1" : "*8",
+          "allele2" : "*8"
+        } ],
+        "displayName" : "CYP2C19 *2, CYP2C19 *3, CYP2C19 *4, CYP2C19 *5, CYP2C19 *6, CYP2C19 *7, CYP2C19 *8",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980635",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980635",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980636",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980636",
+          "name" : "*3"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980637",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980637",
+          "name" : "*4"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980638",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980638",
+          "name" : "*5"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816522",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816522",
+          "name" : "*6"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816523",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816523",
+          "name" : "*7"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816524",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816524",
+          "name" : "*8"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501930",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501930,
+        "src" : "guidelineStrength",
+        "term" : "Strong",
+        "termId" : "guidelineStrength:981501930"
+      },
+      "textHtml" : "<p>Alternative antiplatelet therapy (if no contraindication); e.g., prasugrel, ticagrelor</p><p><em>These recommendations apply predominantly to ACS patients undergoing PCI.<br/>At the time of the development of this recommendation, there are no data available on the possible role of CYP2C19 in clopidogrel response in pediatric patient populations; however, there is no reason to suspect that CYP2C19 variant alleles would affect clopidogrel metabolism differently in children compared to adults. Please see below for full details of these guidelines, with supporting evidence and disclaimers.</em></p>"
+    }, {
+      "id" : 982010078,
+      "diplotypeIds1" : [ "PA165816524", "PA165816523", "PA165980635", "PA165980636", "PA165980637", "PA165980638", "PA165816522" ],
+      "diplotypeIds2" : [ "PA165816533" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA449053",
+        "name" : "clopidogrel"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501928",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501928,
+        "src" : "guidelineTags",
+        "term" : "Recommendations",
+        "termId" : "guidelineTags:981501928"
+      } ],
+      "location" : {
+        "id" : 982022301,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 982022307,
+          "allele1" : "*2",
+          "allele2" : "*17"
+        }, {
+          "id" : 982022308,
+          "allele1" : "*3",
+          "allele2" : "*17"
+        }, {
+          "id" : 982022302,
+          "allele1" : "*4",
+          "allele2" : "*17"
+        }, {
+          "id" : 982022303,
+          "allele1" : "*5",
+          "allele2" : "*17"
+        }, {
+          "id" : 982022306,
+          "allele1" : "*6",
+          "allele2" : "*17"
+        }, {
+          "id" : 982022304,
+          "allele1" : "*7",
+          "allele2" : "*17"
+        }, {
+          "id" : 982022305,
+          "allele1" : "*8",
+          "allele2" : "*17"
+        } ],
+        "displayName" : "CYP2C19 *17, CYP2C19 *2, CYP2C19 *3, CYP2C19 *4, CYP2C19 *5, CYP2C19 *6, CYP2C19 *7, CYP2C19 *8",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA124",
+          "symbol" : "CYP2C19",
+          "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816533",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816533",
+          "name" : "*17"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980635",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980635",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980636",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980636",
+          "name" : "*3"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980637",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980637",
+          "name" : "*4"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165980638",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165980638",
+          "name" : "*5"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816522",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816522",
+          "name" : "*6"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816523",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816523",
+          "name" : "*7"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165816524",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165816524",
+          "name" : "*8"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501931",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501931,
+        "src" : "guidelineStrength",
+        "term" : "Moderate",
+        "termId" : "guidelineStrength:981501931"
+      },
+      "textHtml" : "<p>Alternative antiplatelet therapy (if no contraindication); e.g., prasugrel, ticagrelor</p><p><em>These recommendations apply predominantly to ACS patients undergoing PCI.<br/>At the time of the development of this recommendation, there are no data available on the possible role of CYP2C19 in clopidogrel response in pediatric patient populations; however, there is no reason to suspect that CYP2C19 variant alleles would affect clopidogrel metabolism differently in children compared to adults. Please see below for full details of these guidelines, with supporting evidence and disclaimers.</em></p>"
+    } ]
+  } ],
+  "relatedDrugs" : [ {
+    "objCls" : "Drug",
+    "@id" : "https://www.pharmgkb.org/data/drug/PA449053",
+    "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+    "id" : "PA449053",
+    "name" : "clopidogrel"
+  } ],
+  "relatedGenes" : [ {
+    "objCls" : "Gene",
+    "@id" : "https://www.pharmgkb.org/data/gene/PA124",
+    "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+    "id" : "PA124",
+    "symbol" : "CYP2C19",
+    "name" : "cytochrome P450, family 2, subfamily C, polypeptide 19"
+  } ],
+  "released" : true,
+  "source" : "CPIC",
+  "summaryHtml" : "<p>The CPIC Dosing Guideline for clopidogrel recommends an alternative antiplatelet therapy (e.g., prasugrel, ticagrelor) for CYP2C19 poor or intermediate metabolizers if there is no contraindicaiton.</p>",
+  "textHtml" : "<h3 id=\"September2013Update\">September 2013 Update</h3><p><em>Advance online publication May 2013.</em></p><ul><li>The 2013 update of CPIC guidelines regarding clopidogrel have been published in Clinical Pharmacology and Therapeutics by the Clinical Pharmacogenetics Implementation Consortium (<a href=\"/contributors/consortia/cpic_profile.jsp\">CPIC</a>). Literature published between 1966 to January 2013 was reviewed. The updated therapeutic recommendations are more focused to patients with acute coronary syndromes undergoing percutaneous coronary intervention (ACS/PCI) than the original guideline, with additional updates involve refined recommendations for variant and novel <em>CYP2C19</em> alleles beyond *2.</li><li>At the time of the development of this recommendation, there are no data available on the possible role of CYP2C19 in clopidogrel response in pediatric patient populations; however, there is no reason to suspect that CYP2C19 variant alleles would affect clopidogrel metabolism differently in children as compared with adults.</li><li>Download and read:<ul><li><a href=\"/download.do?objCls=Attachment&amp;objId=CPIC_2C19_clopidogrel_guideline2013.pdf\">Clinical Pharmacogenetics Implementation Consortium guidelines for CYP2C19 genotype and clopidogrel therapy: 2013 update</a> </li><li><a href=\"/download.do?objCls=Attachment&amp;objId=CPIC_2C19_clopidogrel_supplement2013.pdf\">2013 supplement</a></li></ul></li></ul><h3 id=\"Table1AntiplatelettherapyrecommendationsbasedonCYP2C19statuswhenconsideringclopidogrelforACSpatientsundergoingPCI\">Table 1: Antiplatelet therapy recommendations based on CYP2C19 status when considering clopidogrel for ACS patients undergoing PCI</h3><p><em>Adapted from Tables 1 and 2 of the 2013 guideline manuscript.</em></p><table class=\"table table-striped table-condensed table-hover table-bordered\"><tr><th> Likely phenotype</th><th> Genotypes</th><th> Examples of diplotypes </th><th> Implications for clopidogrel </th><th> Therapeutic recommendations </th><th> Classification of recommendations </th></tr><tr><td> Ultrarapid metabolizer (UM)<br/>(~5-30% of patients)  </td><td> An individual carrying two increased activity alleles (*17) or one functional allele (*1) plus one increased activity allele (*17) </td><td> *1/*17, *17/*17 </td><td> Increased platelet inhibition; decreased residual platelet aggregation <sup>1</sup> </td><td> Clopidogrel - label recommended dosage and administration </td><td> Strong </td></tr><tr><td>Extensive metabolizer (EM)<br/>(~35-50% of patients)</td><td> An individual carrying two functional (*1) alleles  </td><td>*1/*1  </td><td>Normal platelet inhibition; normal residual platelet aggregation </td><td>Clopidogrel - label recommended dosage and administration</td><td> Strong </td></tr><tr><td> Intermediate metabolizer (IM)<br/>(~18-45% of patients) </td><td> An individual carrying one functional allele (*1) plus one loss-of-function allele (*2-*8) or one loss-of-function allele (*2-*8) plus one increased activity allele (*17) <sup>2</sup> </td><td> *1/*2, *1/*3, *2/*17 </td><td> Reduced platelet inhibition; increased residual platelet aggregation; increased risk for adverse cardiovascular events </td><td> Alternative antiplatelet therapy (if no contraindication); e.g., prasugrel, ticagrelor </td><td> Moderate </td></tr><tr><td> Poor metabolizer (PM)<br/>(~2-15% of patients)</td><td> An individual carrying two loss-of-function alleles (*2-*8) </td><td> *2/*2, *2/*3, *3/*3 </td><td> Significantly reduced platelet inhibition; increased residual platelet aggregation; increased risk for adverse cardiovascular events </td><td>  Alternative antiplatelet therapy (if no contraindication); e.g., prasugrel, ticagrelor </td><td> Strong </td></tr></table><p><sup>1</sup> The CYP2C19*17 allele (<a href=\"/rsid/rs12248560\">rs12248560</a>) may be associated with increased risk of bleeding.<br/><sup>2</sup> The predicted metabolizer phenotype for *2-*8/*17 genotypes are provisional classifications. The currently available evidence indicates that the *17 gain-of-function allele is unable to completely compensate for the *2 loss-of-function allele [Article:<a href=\"/pmid/20492469\">20492469</a>]; however, this data has not been consistently replicated and is therefore a provisional classification (Table S5).</p><p>An important caveat for all genotyping tests is that the \"wild-type\" (*1) status is reported if all other alleles that are measured are absent.  Some genotype tests do not interrogate the rare loss of function alleles and therefore, if present, they may be erroneously reported as \"wild type\". Furthermore, in human DNA, it is always possible that a new, previously undiscovered (and therefore un-interrogated) site of variation may confer altered enzyme function in an individual, and thus lead to the rare possibility of a loss-of-function allele being erroneously called as \"wild-type\" (*1). The guidelines do not focus on demographic and other clinical variables, such as adherence to therapy, age, diabetes mellitus, obesity, smoking, and concomitant use of other drugs that may influence clopidogrel efficacy and clinical decision making.</p><p><strong>The American Society of Health-System Pharmacists (ASHP) has endorsed the Clinical Pharmacogenetics Implementation Consortium guidelines for cytochrome P450-2C19 (CYP2C19) genotype and clopidogrel therapy.</strong></p><h3 id=\"August2011\">August 2011</h3><p><em>Advance online publication June 2011.</em></p><ul><li>Guidelines regarding the use of pharmacogenomic tests in dosing for clopidogrel were published in Clinical Pharmacology and Therapeutics by the Clinical Pharmacogenetics Implementation Consortium (<a href=\"/contributors/consortia/cpic_profile.jsp\">CPIC</a>).</li><li>Download and read:  <ul><li><a href=\"/download.action?filename=cpic-cyp2c19-clopidogrel-article.pdf\">Clinical Pharmacogenetics Implementation Consortium guidelines for cytochrome P450-2C19 (CYP2C19) genotype and clopidogrel therapy</a> </li><li><a href=\"/download.action?filename=cpic-cyp2c19-clopidogrel-supplement.pdf\">2011 supplement</a></li></ul></li></ul>"
+}

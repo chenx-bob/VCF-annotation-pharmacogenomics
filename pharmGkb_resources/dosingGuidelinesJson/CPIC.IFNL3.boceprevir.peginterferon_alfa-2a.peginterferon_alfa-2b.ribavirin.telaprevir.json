@@ -1,0 +1,524 @@
+{
+  "objCls" : "Guideline",
+  "@id" : "https://www.pharmgkb.org/data/guideline/PA166110235",
+  "@context" : "https://www.pharmgkb.org/jsonld/guideline.jsonld",
+  "id" : "PA166110235",
+  "name" : "CPIC Dosing Guideline for boceprevir, peginterferon alfa-2a, peginterferon alfa-2b, ribavirin, telaprevir and IFNL3",
+  "guides" : [ {
+    "locus" : "rs12979860",
+    "locusId" : "rs12979860",
+    "alleles" : [ "C", "T" ],
+    "anns" : [ {
+      "id" : 1183631763,
+      "diplotypeIds1" : [ null ],
+      "diplotypeIds2" : [ null ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA164749390",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA164749390",
+        "name" : "peginterferon alfa-2a"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 1183631761,
+        "chromosomeName" : "chr19",
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 1183631762,
+          "allele1" : "C",
+          "allele2" : "C"
+        } ],
+        "displayName" : "rs12979860",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA166049147",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA166049147",
+          "symbol" : "IFNL4",
+          "name" : "interferon, lambda 4 (gene/pseudogene)"
+        } ],
+        "gpPosition" : 39738787,
+        "refSeqPosition" : -1,
+        "rsid" : "rs12979860",
+        "tagGene" : false,
+        "type" : "snp"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Favorable response genotype </p>"
+    }, {
+      "id" : 1183631766,
+      "diplotypeIds1" : [ null ],
+      "diplotypeIds2" : [ null ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA164749390",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA164749390",
+        "name" : "peginterferon alfa-2a"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 1183631764,
+        "chromosomeName" : "chr19",
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 1183631765,
+          "allele1" : "C",
+          "allele2" : "T"
+        } ],
+        "displayName" : "rs12979860",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA166049147",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA166049147",
+          "symbol" : "IFNL4",
+          "name" : "interferon, lambda 4 (gene/pseudogene)"
+        } ],
+        "gpPosition" : 39738787,
+        "refSeqPosition" : -1,
+        "rsid" : "rs12979860",
+        "tagGene" : false,
+        "type" : "snp"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Unfavorable response genotype </p>"
+    }, {
+      "id" : 1183631769,
+      "diplotypeIds1" : [ null ],
+      "diplotypeIds2" : [ null ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA164749390",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA164749390",
+        "name" : "peginterferon alfa-2a"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 1183631767,
+        "chromosomeName" : "chr19",
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 1183631768,
+          "allele1" : "T",
+          "allele2" : "T"
+        } ],
+        "displayName" : "rs12979860",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA166049147",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA166049147",
+          "symbol" : "IFNL4",
+          "name" : "interferon, lambda 4 (gene/pseudogene)"
+        } ],
+        "gpPosition" : 39738787,
+        "refSeqPosition" : -1,
+        "rsid" : "rs12979860",
+        "tagGene" : false,
+        "type" : "snp"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Unfavorable response genotype </p>"
+    }, {
+      "id" : 1183631745,
+      "diplotypeIds1" : [ null ],
+      "diplotypeIds2" : [ null ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA164749390",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA164749390",
+        "name" : "peginterferon alfa-2a"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 1183631748,
+        "chromosomeName" : "chr19",
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 1183631749,
+          "allele1" : "C",
+          "allele2" : "C"
+        } ],
+        "displayName" : "rs12979860",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA166049147",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA166049147",
+          "symbol" : "IFNL4",
+          "name" : "interferon, lambda 4 (gene/pseudogene)"
+        } ],
+        "gpPosition" : 39738787,
+        "refSeqPosition" : -1,
+        "rsid" : "rs12979860",
+        "tagGene" : false,
+        "type" : "snp"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501930",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501930,
+        "src" : "guidelineStrength",
+        "term" : "Strong",
+        "termId" : "guidelineStrength:981501930"
+      },
+      "textHtml" : "<p>For patients treated with PEG-IFN alpha&#x1; and RBV alone, approximately 70% chance for SVR after 48 weeks of treatment. Consider implications before initiating PEG-IFN alpha and RBV containing regimens.</p>"
+    }, {
+      "id" : 1183631752,
+      "diplotypeIds1" : [ null ],
+      "diplotypeIds2" : [ null ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA164749390",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA164749390",
+        "name" : "peginterferon alfa-2a"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 1183631750,
+        "chromosomeName" : "chr19",
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 1183631751,
+          "allele1" : "C",
+          "allele2" : "T"
+        } ],
+        "displayName" : "rs12979860",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA166049147",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA166049147",
+          "symbol" : "IFNL4",
+          "name" : "interferon, lambda 4 (gene/pseudogene)"
+        } ],
+        "gpPosition" : 39738787,
+        "refSeqPosition" : -1,
+        "rsid" : "rs12979860",
+        "tagGene" : false,
+        "type" : "snp"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501930",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501930,
+        "src" : "guidelineStrength",
+        "term" : "Strong",
+        "termId" : "guidelineStrength:981501930"
+      },
+      "textHtml" : "<p>For patients treated with PEG-IFN alpha&#x1; and RBV alone, approximately 30% chance of SVR after 48 weeks of treatment. Consider implications before initiating PEG-IFN alpha and RBV containing regimens.</p>"
+    }, {
+      "id" : 1183631755,
+      "diplotypeIds1" : [ null ],
+      "diplotypeIds2" : [ null ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA164749390",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA164749390",
+        "name" : "peginterferon alfa-2a"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 1183631753,
+        "chromosomeName" : "chr19",
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 1183631754,
+          "allele1" : "T",
+          "allele2" : "T"
+        } ],
+        "displayName" : "rs12979860",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA166049147",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA166049147",
+          "symbol" : "IFNL4",
+          "name" : "interferon, lambda 4 (gene/pseudogene)"
+        } ],
+        "gpPosition" : 39738787,
+        "refSeqPosition" : -1,
+        "rsid" : "rs12979860",
+        "tagGene" : false,
+        "type" : "snp"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501930",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501930,
+        "src" : "guidelineStrength",
+        "term" : "Strong",
+        "termId" : "guidelineStrength:981501930"
+      },
+      "textHtml" : "<p>For patients treated with PEG-IFN alpha&#x1; and RBV alone, approximately 30% chance of SVR after 48 weeks of treatment. Consider implications before initiating PEG-IFN alpha and RBV containing regimens.</p>"
+    }, {
+      "id" : 1183631772,
+      "diplotypeIds1" : [ null ],
+      "diplotypeIds2" : [ null ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA164749390",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA164749390",
+        "name" : "peginterferon alfa-2a"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 1183631770,
+        "chromosomeName" : "chr19",
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 1183631771,
+          "allele1" : "C",
+          "allele2" : "C"
+        } ],
+        "displayName" : "rs12979860",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA166049147",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA166049147",
+          "symbol" : "IFNL4",
+          "name" : "interferon, lambda 4 (gene/pseudogene)"
+        } ],
+        "gpPosition" : 39738787,
+        "refSeqPosition" : -1,
+        "rsid" : "rs12979860",
+        "tagGene" : false,
+        "type" : "snp"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501930",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501930,
+        "src" : "guidelineStrength",
+        "term" : "Strong",
+        "termId" : "guidelineStrength:981501930"
+      },
+      "textHtml" : "<p>For patients treated with protease inhibitor combinations with PEG-IFN alpha&#x1; and RBV therapy, approximately 90% chance for SVR after 24-48 weeks of treatment. Approximately 80-90% of patients are eligible for shortened therapy (24-28 weeks vs. 48 weeks). Weighs in favor of using PEG-IFN&#x1; alpha and RBV containing regimens.</p>"
+    }, {
+      "id" : 1183631775,
+      "diplotypeIds1" : [ null ],
+      "diplotypeIds2" : [ null ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA164749390",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA164749390",
+        "name" : "peginterferon alfa-2a"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 1183631773,
+        "chromosomeName" : "chr19",
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 1183631774,
+          "allele1" : "C",
+          "allele2" : "T"
+        } ],
+        "displayName" : "rs12979860",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA166049147",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA166049147",
+          "symbol" : "IFNL4",
+          "name" : "interferon, lambda 4 (gene/pseudogene)"
+        } ],
+        "gpPosition" : 39738787,
+        "refSeqPosition" : -1,
+        "rsid" : "rs12979860",
+        "tagGene" : false,
+        "type" : "snp"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501930",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501930,
+        "src" : "guidelineStrength",
+        "term" : "Strong",
+        "termId" : "guidelineStrength:981501930"
+      },
+      "textHtml" : "<p>For patients treated with protease inhibitor combinations with PEG-IFN alpha&#x1; and RBV therapy, approximately 60% chance for SVR after 24-48 weeks of treatment. Approximately 50% of patients are eligible for shortened therapy (24-28 weeks). Consider implications before initiating PEG-IFN&#x1; and RBV containing regimens.</p>"
+    }, {
+      "id" : 1183631778,
+      "diplotypeIds1" : [ null ],
+      "diplotypeIds2" : [ null ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA164749390",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA164749390",
+        "name" : "peginterferon alfa-2a"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 1183631776,
+        "chromosomeName" : "chr19",
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 1183631777,
+          "allele1" : "T",
+          "allele2" : "T"
+        } ],
+        "displayName" : "rs12979860",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA166049147",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA166049147",
+          "symbol" : "IFNL4",
+          "name" : "interferon, lambda 4 (gene/pseudogene)"
+        } ],
+        "gpPosition" : 39738787,
+        "refSeqPosition" : -1,
+        "rsid" : "rs12979860",
+        "tagGene" : false,
+        "type" : "snp"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501930",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501930,
+        "src" : "guidelineStrength",
+        "term" : "Strong",
+        "termId" : "guidelineStrength:981501930"
+      },
+      "textHtml" : "<p>For patients treated with protease inhibitor combinations with PEG-IFN alpha&#x1; and RBV therapy, approximately 60% chance for SVR after 24-48 weeks of treatment. Approximately 50% of patients are eligible for shortened therapy (24-28 weeks). Consider implications before initiating PEG-IFN&#x1; and RBV containing regimens.</p>"
+    } ]
+  } ],
+  "relatedDrugs" : [ {
+    "objCls" : "Drug",
+    "@id" : "https://www.pharmgkb.org/data/drug/PA165948902",
+    "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+    "id" : "PA165948902",
+    "name" : "boceprevir"
+  }, {
+    "objCls" : "Drug",
+    "@id" : "https://www.pharmgkb.org/data/drug/PA164749390",
+    "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+    "id" : "PA164749390",
+    "name" : "peginterferon alfa-2a"
+  }, {
+    "objCls" : "Drug",
+    "@id" : "https://www.pharmgkb.org/data/drug/PA164784024",
+    "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+    "id" : "PA164784024",
+    "name" : "peginterferon alfa-2b"
+  }, {
+    "objCls" : "Drug",
+    "@id" : "https://www.pharmgkb.org/data/drug/PA451241",
+    "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+    "id" : "PA451241",
+    "name" : "ribavirin"
+  }, {
+    "objCls" : "Drug",
+    "@id" : "https://www.pharmgkb.org/data/drug/PA165958354",
+    "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+    "id" : "PA165958354",
+    "name" : "telaprevir"
+  } ],
+  "relatedGenes" : [ {
+    "objCls" : "Gene",
+    "@id" : "https://www.pharmgkb.org/data/gene/PA134952671",
+    "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+    "id" : "PA134952671",
+    "symbol" : "IFNL3",
+    "name" : "interferon, lambda 3"
+  } ],
+  "released" : true,
+  "source" : "CPIC",
+  "summaryHtml" : "<p>IFNL3 (IL28B) variation (<a href=\"/rsid/rs12979860\">rs12979860</a>) is the strongest baseline predictor of response to PEG-interferon-alpha-containing regimens in HCV genotype 1 patients.  Patients with the favorable response genotype (<a href=\"/rsid/rs12979860\">rs12979860</a> CC) have increased likelihood of response (higher SVR rate) to PEG-interferon-alpha-containing regimens as compared to patients with unfavorable response genotype (<a href=\"/rsid/rs12979860\">rs12979860</a> CT or TT). Consider implications before initiating PEG-IFN alpha and RBV containing regimens.</p>",
+  "textHtml" : "<h3 id=\"February2014\">February 2014</h3><p><em>Accepted article preview online October 2013; Advance online publication November 2013.</em></p><ul><li>Guidelines regarding the use of pharmacogenomic tests in PEG-interferon-alpha (PEG-IFN alpha) and ribavirin (RBV) therapy have been published in Clinical Pharmacology and Therapeutics by the <a href=\"/contributors/consortia/cpic_profile.jsp\">Clinical Pharmacogenetics Implementation Consortium (CPIC)</a>.</li><li>These guidelines are applicable to <ul><li>adults</li></ul></li><li>Excerpt from the 2013 PEG-interferon-alpha therapy dosing guidelines:<ul><li>\"The role of IFNL3 genotyping depends on treatment selection. IFNL3 genotype is only one factor that could influence response rates to PEG-IFN alpha&#x1; and RBV therapy in HCV genotype 1 infection and should be interpreted in the context of other clinical and genetic factors. \"</li><li>\"For patients treated with PEG-IFN alpha&#x1; and RBV alone, IFNL3 genotype is the strongest pretreatment predictor of HCV treatment response. In the intention to treat analysis of the original discovery cohort with <a href=\"/rsid/rs12979860\">rs12979860</a>, Caucasian CC genotype patients were more likely than CT or TT patients to be undetectable by week 4 (28% versus 5% and 5%, P&lt;0.0001) and to achieve SVR (69% versus 33% and 27%, P&lt;0.0001). Similar patterns were observed in Hispanic and African American patients in this cohort. HCV treatment is associated with significant side effects, and the likelihood of response treatment influences shared decision making between clinicians and patients about initiating treatment.\" </li><li>\"For treatment naïve patients with genotype 1 infection who are treated with protease inhibitor combinations, all IFNL3 genotypes have improved response rates compared to PEG-IFN alpha&#x1; and RBV only. However, patients with the favorable IFNL3 genotype still have higher response rates with the protease inhibitor combination in treatment naïve patients, and these response rates may guide patients and clinicians in their treatment decisions. In the boceprevir phase 3 naïve study of combination with PEG-IFN alpha&#x1; and RBV, SVR rates for <a href=\"/rsid/rs12979860\">rs12979860</a> CC patients receiving boceprevir ranged from 80-82% compared to 65-71% for CT patients and 59-65% for TT patients. Moreover, multivariate regression analysis revealed that <a href=\"/rsid/rs12979860\">rs12979860</a> CC was a predictor of SVR compared to CT (odds ratio (OR) 2.6, 95% CI 1.3-5.1) and TT genotypes (OR 2.1, 95% CI 1.2-3.7).\"</li></ul></li></ul><ul><li>Download and read:<ul><li><a href=\"/download.do?objCls=Attachment&amp;objId=clpt2013203a_1_.pdf\">Clinical Pharmacogenetics Implementation Consortium (CPIC) guidelines for IFNL3 (IL28B) genotype and PEG interferon-alpha-based regimens</a> </li><li><a href=\"/download.do?objCls=Attachment&amp;objId=CPIC_IL28B_HCV_guideline_supplement_revised_Sep_2013_1.pdf\">2013 supplement</a></li></ul></li></ul><h3 id=\"Table1RecommendedtherapeuticuseofPEGinterferonalphacontainingregimensbasedonIFNL3genotype\">Table 1: Recommended therapeutic use of  PEG-interferon-alpha containing regimens based on <em>IFNL3</em> genotype</h3><p><em>Adapted from Table 1 and 2 of the 2013 guideline manuscript</em></p><table class=\"table table-striped table-condensed table-hover table-bordered\"><tr><th> Genotype at <a href=\"/rsid/rs12979860\">rs12979860</a> </th><th> Phenotype </th><th> Implications for PEG-IFN alpha&#x1; and RBV <sup>a</sup> </th><th> Implications for protease inhibitor combinations with PEG-IFN alpha&#x1; and RBV therapy </th><th> Classification of recommendations <sup>b</sup> </th></tr><tr><td> CC </td><td> Favorable response genotype </td><td> Approximately 70% chance for SVR <sup>c</sup> after 48 weeks of treatment. Consider implications before initiating PEG-IFN alpha and RBV containing regimens. </td><td> Approximately 90% chance for SVR after 24-48 weeks of treatment. Approximately 80-90% of patients are eligible for shortened therapy (24-28 weeks vs. 48 weeks)<sup>d</sup>. Weighs in favor of using PEG-IFN&#x1; alpha and RBV containing regimens.</td><td> Strong </td></tr><tr><td> CT or TT </td><td> Unfavorable response genotype </td><td> Approximately 30% chance for SVR <sup>c</sup> after 48 weeks of treatment. Consider implications before initiating PEG-IFN alpha and RBV containing regimens. </td><td> Approximately 60% chance for SVR after 24-48 weeks of treatment. Approximately 50% of patients are eligible for shortened therapy (24-28 weeks)<sup>d</sup>. Consider implications before initiating PEG-IFN&#x1; and RBV containing regimens.</td><td> Strong </td></tr></table><p><sup>a</sup> In cases where a protease inhibitor is not available. <br/><sup>b</sup> Rating scheme described in Supplement.<br/><sup>c</sup> SVR; sustained virologic response (defined by undetectable serum viral RNA 12-24 weeks after the end of treatment).<br/><sup>d</sup> Patients receiving boceprevir are eligible for 24-28 weeks instead of the standard 48 weeks if HCV RNA is undetectable by week eight. Patients receiving telaprevir are eligible for 24 weeks of therapy instead of the standard 48 weeks if HCV RNA is undetectable by week four.</p><p>PEG-IFN alpha&#x1;: pegylated-interferon alpha 2a or 2b; RBV: ribavirin</p>"
+}

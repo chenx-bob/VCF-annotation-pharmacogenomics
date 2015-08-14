@@ -1,0 +1,923 @@
+{
+  "objCls" : "Guideline",
+  "@id" : "https://www.pharmgkb.org/data/guideline/PA166104933",
+  "@context" : "https://www.pharmgkb.org/jsonld/guideline.jsonld",
+  "id" : "PA166104933",
+  "name" : "CPIC Dosing Guideline for azathioprine and TPMT",
+  "guides" : [ {
+    "locus" : "TPMT",
+    "locusId" : "PA356",
+    "alleles" : [ "*1", "*2", "*3A", "*3B", "*3C", "*4" ],
+    "anns" : [ {
+      "id" : 981503057,
+      "diplotypeIds1" : [ "PA165819268" ],
+      "diplotypeIds2" : [ "PA165819272", "PA165819274", "PA165819271", "PA165819270", "PA165819269" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA448515",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA448515",
+        "name" : "azathioprine"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 981914568,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981914569,
+          "allele1" : "*1",
+          "allele2" : "*2"
+        }, {
+          "id" : 981914570,
+          "allele1" : "*1",
+          "allele2" : "*3A"
+        }, {
+          "id" : 981914571,
+          "allele1" : "*1",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981914572,
+          "allele1" : "*1",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981914573,
+          "allele1" : "*1",
+          "allele2" : "*4"
+        } ],
+        "displayName" : "TPMT *1, TPMT *2, TPMT *3A, TPMT *3B, TPMT *3C, TPMT *4",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA356",
+          "symbol" : "TPMT",
+          "name" : "thiopurine S-methyltransferase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819268",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819268",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819269",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819269",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819270",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819270",
+          "name" : "*3A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819271",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819271",
+          "name" : "*3B"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819272",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819272",
+          "name" : "*3C"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819274",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819274",
+          "name" : "*4"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Heterozygote or intermediate activity (one functional allele - *1, plus one nonfunctional allele - *2, *3A, *3B, *3C, or *4)</p>"
+    }, {
+      "id" : 981503054,
+      "diplotypeIds1" : [ "PA165819268" ],
+      "diplotypeIds2" : [ "PA165819268" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA448515",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA448515",
+        "name" : "azathioprine"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 981916794,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981916795,
+          "allele1" : "*1",
+          "allele2" : "*1"
+        } ],
+        "displayName" : "TPMT *1",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA356",
+          "symbol" : "TPMT",
+          "name" : "thiopurine S-methyltransferase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819268",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819268",
+          "name" : "*1"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Homozygous wild-type or normal, high activity (two functional *1 alleles)</p>"
+    }, {
+      "id" : 981503078,
+      "diplotypeIds1" : [ "PA165819272", "PA165819274", "PA165819271", "PA165819270", "PA165819269" ],
+      "diplotypeIds2" : [ "PA165819272", "PA165819274", "PA165819271", "PA165819270", "PA165819269" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA448515",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA448515",
+        "name" : "azathioprine"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501927",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501927,
+        "src" : "guidelineTags",
+        "term" : "Phenotype (Genotype)",
+        "termId" : "guidelineTags:981501927"
+      } ],
+      "location" : {
+        "id" : 981919816,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981919817,
+          "allele1" : "*2",
+          "allele2" : "*2"
+        }, {
+          "id" : 981919818,
+          "allele1" : "*2",
+          "allele2" : "*3A"
+        }, {
+          "id" : 981919819,
+          "allele1" : "*2",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981919820,
+          "allele1" : "*2",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981919821,
+          "allele1" : "*2",
+          "allele2" : "*4"
+        }, {
+          "id" : 981919822,
+          "allele1" : "*3A",
+          "allele2" : "*3A"
+        }, {
+          "id" : 981919823,
+          "allele1" : "*3A",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981919824,
+          "allele1" : "*3A",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981919825,
+          "allele1" : "*3A",
+          "allele2" : "*4"
+        }, {
+          "id" : 981919826,
+          "allele1" : "*3B",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981919827,
+          "allele1" : "*3B",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981919828,
+          "allele1" : "*3B",
+          "allele2" : "*4"
+        }, {
+          "id" : 981919829,
+          "allele1" : "*3C",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981919830,
+          "allele1" : "*3C",
+          "allele2" : "*4"
+        }, {
+          "id" : 981919831,
+          "allele1" : "*4",
+          "allele2" : "*4"
+        } ],
+        "displayName" : "TPMT *2, TPMT *3A, TPMT *3B, TPMT *3C, TPMT *4",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA356",
+          "symbol" : "TPMT",
+          "name" : "thiopurine S-methyltransferase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819269",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819269",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819270",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819270",
+          "name" : "*3A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819271",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819271",
+          "name" : "*3B"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819272",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819272",
+          "name" : "*3C"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819274",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819274",
+          "name" : "*4"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Homozygous variant, mutant, low, or deficient activity (two nonfunctional alleles - *2, *3A, *3B, *3C, or *4)</p>"
+    }, {
+      "id" : 981503055,
+      "diplotypeIds1" : [ "PA165819268" ],
+      "diplotypeIds2" : [ "PA165819268" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA448515",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA448515",
+        "name" : "azathioprine"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 981914566,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981914567,
+          "allele1" : "*1",
+          "allele2" : "*1"
+        } ],
+        "displayName" : "TPMT *1",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA356",
+          "symbol" : "TPMT",
+          "name" : "thiopurine S-methyltransferase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819268",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819268",
+          "name" : "*1"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Lower concentrations of TGN metabolites, higher methylTIMP, this is the &quot;normal&quot; pattern</p>"
+    }, {
+      "id" : 981503079,
+      "diplotypeIds1" : [ "PA165819272", "PA165819274", "PA165819271", "PA165819270", "PA165819269" ],
+      "diplotypeIds2" : [ "PA165819272", "PA165819274", "PA165819271", "PA165819270", "PA165819269" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA448515",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA448515",
+        "name" : "azathioprine"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 981914602,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981914603,
+          "allele1" : "*2",
+          "allele2" : "*2"
+        }, {
+          "id" : 981914604,
+          "allele1" : "*2",
+          "allele2" : "*3A"
+        }, {
+          "id" : 981914605,
+          "allele1" : "*2",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981914606,
+          "allele1" : "*2",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981914607,
+          "allele1" : "*2",
+          "allele2" : "*4"
+        }, {
+          "id" : 981914608,
+          "allele1" : "*3A",
+          "allele2" : "*3A"
+        }, {
+          "id" : 981914609,
+          "allele1" : "*3A",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981914610,
+          "allele1" : "*3A",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981914611,
+          "allele1" : "*3A",
+          "allele2" : "*4"
+        }, {
+          "id" : 981914612,
+          "allele1" : "*3B",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981914613,
+          "allele1" : "*3B",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981914614,
+          "allele1" : "*3B",
+          "allele2" : "*4"
+        }, {
+          "id" : 981914615,
+          "allele1" : "*3C",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981914616,
+          "allele1" : "*3C",
+          "allele2" : "*4"
+        }, {
+          "id" : 981914617,
+          "allele1" : "*4",
+          "allele2" : "*4"
+        } ],
+        "displayName" : "TPMT *2, TPMT *3A, TPMT *3B, TPMT *3C, TPMT *4",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA356",
+          "symbol" : "TPMT",
+          "name" : "thiopurine S-methyltransferase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819269",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819269",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819270",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819270",
+          "name" : "*3A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819271",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819271",
+          "name" : "*3B"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819272",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819272",
+          "name" : "*3C"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819274",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819274",
+          "name" : "*4"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Extremely high concentrations of TGN metabolites; fatal toxicity possible without dose decrease; no methylTIMP metabolites</p>"
+    }, {
+      "id" : 981503058,
+      "diplotypeIds1" : [ "PA165819268" ],
+      "diplotypeIds2" : [ "PA165819272", "PA165819274", "PA165819271", "PA165819270", "PA165819269" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA448515",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA448515",
+        "name" : "azathioprine"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501925",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501925,
+        "src" : "guidelineTags",
+        "term" : "Implications",
+        "termId" : "guidelineTags:981501925"
+      } ],
+      "location" : {
+        "id" : 981916782,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981916783,
+          "allele1" : "*1",
+          "allele2" : "*2"
+        }, {
+          "id" : 981916784,
+          "allele1" : "*1",
+          "allele2" : "*3A"
+        }, {
+          "id" : 981916785,
+          "allele1" : "*1",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981916786,
+          "allele1" : "*1",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981916787,
+          "allele1" : "*1",
+          "allele2" : "*4"
+        } ],
+        "displayName" : "TPMT *1, TPMT *2, TPMT *3A, TPMT *3B, TPMT *3C, TPMT *4",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA356",
+          "symbol" : "TPMT",
+          "name" : "thiopurine S-methyltransferase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819268",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819268",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819269",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819269",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819270",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819270",
+          "name" : "*3A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819271",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819271",
+          "name" : "*3B"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819272",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819272",
+          "name" : "*3C"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819274",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819274",
+          "name" : "*4"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501929",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501929,
+        "src" : "guidelineStrength",
+        "term" : "N/A",
+        "termId" : "guidelineStrength:981501929"
+      },
+      "textHtml" : "<p>Moderate to high concentrations of TGN metabolites; low concentrations of methylTIMP</p>"
+    }, {
+      "id" : 981503060,
+      "diplotypeIds1" : [ "PA165819268" ],
+      "diplotypeIds2" : [ "PA165819272", "PA165819274", "PA165819271", "PA165819270", "PA165819269" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA448515",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA448515",
+        "name" : "azathioprine"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501928",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501928,
+        "src" : "guidelineTags",
+        "term" : "Recommendations",
+        "termId" : "guidelineTags:981501928"
+      } ],
+      "location" : {
+        "id" : 981914574,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981914575,
+          "allele1" : "*1",
+          "allele2" : "*2"
+        }, {
+          "id" : 981914576,
+          "allele1" : "*1",
+          "allele2" : "*3A"
+        }, {
+          "id" : 981914577,
+          "allele1" : "*1",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981914578,
+          "allele1" : "*1",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981914579,
+          "allele1" : "*1",
+          "allele2" : "*4"
+        } ],
+        "displayName" : "TPMT *1, TPMT *2, TPMT *3A, TPMT *3B, TPMT *3C, TPMT *4",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA356",
+          "symbol" : "TPMT",
+          "name" : "thiopurine S-methyltransferase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819268",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819268",
+          "name" : "*1"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819269",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819269",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819270",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819270",
+          "name" : "*3A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819271",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819271",
+          "name" : "*3B"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819272",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819272",
+          "name" : "*3C"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819274",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819274",
+          "name" : "*4"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501930",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501930,
+        "src" : "guidelineStrength",
+        "term" : "Strong",
+        "termId" : "guidelineStrength:981501930"
+      },
+      "textHtml" : "<p>If disease treatment normally starts at the &quot;full dose&quot;, consider starting at 30-70% of target dose (e.g., 1-1.5 mg/kg/d), and titrate based on tolerance. Allow 2-4 weeks to reach steady state after each dose adjustment.</p>"
+    }, {
+      "id" : 981503067,
+      "diplotypeIds1" : [ "PA165819272", "PA165819274", "PA165819271", "PA165819270", "PA165819269" ],
+      "diplotypeIds2" : [ "PA165819272", "PA165819274", "PA165819271", "PA165819270", "PA165819269" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA448515",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA448515",
+        "name" : "azathioprine"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501928",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501928,
+        "src" : "guidelineTags",
+        "term" : "Recommendations",
+        "termId" : "guidelineTags:981501928"
+      } ],
+      "location" : {
+        "id" : 981916804,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981916805,
+          "allele1" : "*2",
+          "allele2" : "*2"
+        }, {
+          "id" : 981916806,
+          "allele1" : "*2",
+          "allele2" : "*3A"
+        }, {
+          "id" : 981916807,
+          "allele1" : "*2",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981916808,
+          "allele1" : "*2",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981916809,
+          "allele1" : "*2",
+          "allele2" : "*4"
+        }, {
+          "id" : 981916810,
+          "allele1" : "*3A",
+          "allele2" : "*3A"
+        }, {
+          "id" : 981916811,
+          "allele1" : "*3A",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981916812,
+          "allele1" : "*3A",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981916813,
+          "allele1" : "*3A",
+          "allele2" : "*4"
+        }, {
+          "id" : 981916814,
+          "allele1" : "*3B",
+          "allele2" : "*3B"
+        }, {
+          "id" : 981916815,
+          "allele1" : "*3B",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981916816,
+          "allele1" : "*3B",
+          "allele2" : "*4"
+        }, {
+          "id" : 981916817,
+          "allele1" : "*3C",
+          "allele2" : "*3C"
+        }, {
+          "id" : 981916818,
+          "allele1" : "*3C",
+          "allele2" : "*4"
+        }, {
+          "id" : 981916819,
+          "allele1" : "*4",
+          "allele2" : "*4"
+        } ],
+        "displayName" : "TPMT *2, TPMT *3A, TPMT *3B, TPMT *3C, TPMT *4",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA356",
+          "symbol" : "TPMT",
+          "name" : "thiopurine S-methyltransferase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819269",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819269",
+          "name" : "*2"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819270",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819270",
+          "name" : "*3A"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819271",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819271",
+          "name" : "*3B"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819272",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819272",
+          "name" : "*3C"
+        }, {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819274",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819274",
+          "name" : "*4"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501930",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501930,
+        "src" : "guidelineStrength",
+        "term" : "Strong",
+        "termId" : "guidelineStrength:981501930"
+      },
+      "textHtml" : "<p>Consider alternative agents. If using azathioprine start with drastically reduced doses (reduce daily dose by 10-fold and dose thrice weekly instead of daily) and adjust doses of azathioprine based on degree of myelosuppression and disease-specific guidelines. Allow 4-6 weeks to reach steady state after each dose adjustment. Azathioprine is the likely cause of myelosuppression.</p>"
+    }, {
+      "id" : 981503056,
+      "diplotypeIds1" : [ "PA165819268" ],
+      "diplotypeIds2" : [ "PA165819268" ],
+      "drug" : {
+        "objCls" : "Drug",
+        "@id" : "https://www.pharmgkb.org/data/drug/PA448515",
+        "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+        "id" : "PA448515",
+        "name" : "azathioprine"
+      },
+      "groups" : [ {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineTags/guidelineTags:981501928",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501928,
+        "src" : "guidelineTags",
+        "term" : "Recommendations",
+        "termId" : "guidelineTags:981501928"
+      } ],
+      "location" : {
+        "id" : 981916899,
+        "copyNumber" : "1",
+        "diplotypes" : [ {
+          "id" : 981916900,
+          "allele1" : "*1",
+          "allele2" : "*1"
+        } ],
+        "displayName" : "TPMT *1",
+        "genes" : [ {
+          "objCls" : "Gene",
+          "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+          "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+          "id" : "PA356",
+          "symbol" : "TPMT",
+          "name" : "thiopurine S-methyltransferase"
+        } ],
+        "gpPosition" : -1,
+        "haplotypes" : [ {
+          "objCls" : "Haplotype",
+          "@id" : "https://www.pharmgkb.org/data/haplotype/PA165819268",
+          "@context" : "https://www.pharmgkb.org/jsonld/haplotype.jsonld",
+          "id" : "PA165819268",
+          "name" : "*1"
+        } ],
+        "refSeqPosition" : -1,
+        "tagGene" : false,
+        "type" : "haplotype"
+      },
+      "strength" : {
+        "@id" : "https://www.pharmgkb.org/data/ontologyTerm/guidelineStrength/guidelineStrength:981501930",
+        "@context" : "https://www.pharmgkb.org/jsonld/ontologyTerm.jsonld",
+        "id" : 981501930,
+        "src" : "guidelineStrength",
+        "term" : "Strong",
+        "termId" : "guidelineStrength:981501930"
+      },
+      "textHtml" : "<p>Start with normal starting dose (e.g., 2-3 mg/kg/d) and adjust doses of azathioprine based on disease-specific guidelines. Allow 2 weeks to reach steady state after each dose adjustment.</p>"
+    } ]
+  } ],
+  "relatedDrugs" : [ {
+    "objCls" : "Drug",
+    "@id" : "https://www.pharmgkb.org/data/drug/PA448515",
+    "@context" : "https://www.pharmgkb.org/jsonld/drug.jsonld",
+    "id" : "PA448515",
+    "name" : "azathioprine"
+  } ],
+  "relatedGenes" : [ {
+    "objCls" : "Gene",
+    "@id" : "https://www.pharmgkb.org/data/gene/PA356",
+    "@context" : "https://www.pharmgkb.org/jsonld/gene.jsonld",
+    "id" : "PA356",
+    "symbol" : "TPMT",
+    "name" : "thiopurine S-methyltransferase"
+  } ],
+  "released" : true,
+  "source" : "CPIC",
+  "summaryHtml" : "<p>Consider an alternate agent or extreme dose reduction of azathioprine for patients with low or deficient TPMT activity.  Start at 30-70% of target dose for patients with intermediate enzyme activity. </p>",
+  "textHtml" : "<h3 id=\"April2013Update\">April 2013 Update</h3><p><em>Advance online publication January 2013.</em></p><ul><li>The <a href=\"/redirect.jsp?p=http%3A%2F%2Fwww.nature.com%2Fclpt%2Fjournal%2Fvaop%2Fnaam%2Findex.html%2317012013\" target=\"offsite\">2013 update of CPIC guidelines regarding azathioprine, thioguanine and mercaptopurine</a>, have been published in Clinical Pharmacology and Therapeutics.  Literature published between June 2010-November 2012 was reviewed and there is <strong>no new evidence that would change the original guidelines. Therefore, the dosing recommendations in the original publication remain clinically current.</strong> </li><li>These guidelines are applicable to:<ul><li>pediatric patients </li><li>adult patients</li></ul></li><li>Download and read: <ul><li><a href=\"/download.do?objCls=Attachment&amp;objId=CPIC_TPMT_update.pdf\">Clinical Pharmacogenetics Implementation Consortium Guidelines for Thiopurine Methyltransferase Genotype and Thiopurine Dosing: 2013 Update</a></li><li><a href=\"/download.do?objCls=Attachment&amp;objId=CPIC_TPMT_update_supp.pdf\">2013 supplement</a></li></ul></li></ul><h3 id=\"March2011\">March 2011</h3><p><em>Advance online publication January 2011.</em></p><ul><li>Guidelines regarding the use of pharmacogenomic tests in dosing for azathioprine, thioguanine and mercaptopurine were published in Clinical Pharmacology and Therapeutics by the Clinical Pharmacogenetics Implementation Consortium (<a href=\"/contributors/consortia/cpic_profile.jsp\">CPIC</a>).  </li><li>Excerpt from the 2011 thiopurine dosing guidelines:<ul><li>\"Thiopurines are most commonly used to treat nonmalignant conditions but are also critical anticancer agents. The approach to dosing adjustments based on TPMT status may differ depending on the clinical indication and the propensity to initiate therapy at higher vs. lower starting doses. We and others advocate testing for TPMT status prior to initiating thiopurine therapy, so that starting dosages can be adjusted accordingly.\"</li></ul></li><li>Download and read:  <ul><li><a href=\"/download.do?objCls=Attachment&amp;objId=cpic-tpmt-article.pdf\">Clinical Pharmacogenetics Implementation Consortium Guidelines for Thiopurine Methyltransferase Genotype and Thiopurine Dosing</a> </li><li><a href=\"/download.do?objCls=Attachment&amp;objId=cpic-tpmt-supplement.pdf\">2011 supplement</a></li></ul></li></ul><h3 id=\"Table1RecommendeddosingofazathioprinebyTPMTphenotype\">Table 1: Recommended dosing of azathioprine by TPMT phenotype</h3><p><em>Adapted from Tables 1 and 2 of the 2011 guideline manuscript.</em></p><table class=\"table table-striped table-condensed table-hover table-bordered\"><tr><th> Phenotype (Genotype) </th><th> Examples of diplotypes </th><th> Implications for azathioprine pharmacologic measures </th><th> Dosing recommendations for azothioprine </th><th> Classification of recommendations </th></tr><tr><td> Homozygous wild-type or normal, high activity (two functional *1 alleles) </td><td> *1/*1 </td><td> Lower concentrations of TGN metabolites, higher methylTIMP, this is the \"normal\" pattern </td><td> Start with normal starting dose (e.g., 2-3 mg/kg/d) and adjust doses of azathioprine based on disease-specific guidelines. Allow 2 weeks to reach steady state after each dose adjustment. </td><td> Strong </td></tr><tr><td> Heterozygote or intermediate activity (one functional allele - *1, plus one nonfunctional allele - *2, *3A, *3B, *3C, or *4) </td><td> *1/*2, *1/*3A, *1/*3B, *1/*3C, *1/*4 </td><td> Moderate to high concentrations of TGN metabolites; low concentrations of methylTIMP </td><td> If disease treatment normally starts at the \"full dose\", consider starting at 30-70% of target dose (e.g., 1-1.5 mg/kg/d), and titrate based on tolerance. Allow 2-4 weeks to reach steady state after each dose adjustment. </td><td> Strong </td></tr><tr><td> Homozygous variant, mutant, low, or deficient activity (two nonfunctional alleles - *2, *3A, *3B, *3C, or *4) </td><td> *3A/*3A, *2/*3A, *3C/*3A, *3C/*4, *3C/*2, *3A/*4 </td><td> Extremely high concentrations of TGN metabolites; fatal toxicity possible without dose decrease; no methylTIMP metabolites </td><td> Consider alternative agents. If using azathioprine start with drastically reduced doses (reduce daily dose by 10-fold and dose thrice weekly instead of daily) and adjust doses of azathioprine based on degree of myelosuppression and disease-specific guidelines. Allow 4-6 weeks to reach steady state after each dose adjustment. Azathioprine is the likely cause of myelosuppression. </td><td> Strong </td></tr></table>"
+}

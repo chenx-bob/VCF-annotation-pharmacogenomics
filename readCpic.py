@@ -94,7 +94,10 @@ def fillRsidList(translationTablePerGeneFileList):
     rsidList=[]
     for translationTablePerGene in translationTablePerGeneFileList:
         if translationTablePerGene.endswith('.xlsx'): #and translationTablePerGene.startswith(geneSymbolName):
-            translationTablePerGeneWorkbook = load_workbook(translationTablePerGene,read_only=True)
+            try:
+                translationTablePerGeneWorkbook = load_workbook(translationTablePerGene,read_only=True)
+            except ValueError:
+                break
             worksheetTranslationTablePerGene = translationTablePerGeneWorkbook.active
             for row in worksheetTranslationTablePerGene.rows:
                 for cell in row:
@@ -123,12 +126,12 @@ def load_data():
         pharmgkbJsonFileList.append(os.getcwd()+'/dosingGuidelines_json/'+name)
     print 'downloading:  json files  from Pharmgkb.  ','Downloaded ',len(dosingGuidelines_json_zipfile.namelist()),' json files from ',jsonfilesUrl[:40],' ...'
     # print pharmgkbJsonFileList
-    fileOut = open('/Users/admin/Dropbox/Privat/00_Masterthesis/MITTELasdf.txt','w')
+    # fileOut = open('/Users/admin/Dropbox/Privat/00_Masterthesis/MITTELasdf.txt','w')
 
     rsidList = fillRsidList(translationTablePerGeneFileList)
-    # for rs in rsidList:
-    # print json.dumps(getDosingGuidelineFromRsid('rs4244285',translationTablePerGeneFileList,pharmgkbJsonFileList), indent=4)
-    fileOut.write(json.dumps(getDosingGuidelineFromRsid('rs4244285',translationTablePerGeneFileList,pharmgkbJsonFileList), indent=4, sort_keys=True))
+    for rs in rsidList:
+    print json.dumps(getDosingGuidelineFromRsid(rs,translationTablePerGeneFileList,pharmgkbJsonFileList), indent=4)
+    # fileOut.write(json.dumps(getDosingGuidelineFromRsid('rs4244285',translationTablePerGeneFileList,pharmgkbJsonFileList), indent=4, sort_keys=True))
     # print json.dumps(getDosingGuidelineFromRsid('rs1801265'), indent=4)
     # fileOut.close()
     # getDosingGuidelineFromRsid('rs1801265')
